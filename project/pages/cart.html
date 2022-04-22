@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style/bootstrap.css">
+    <link rel="stylesheet" href="../style/cart.css">
+    <link rel="stylesheet" href="../style/all.min.css">
+    <link rel="stylesheet" href="../fontawesome-free-6.1.0-web/css/all.css">
+    <link rel="stylesheet" href="../fontawesome-free-6.1.0-web/css/all.min.css">
+    <link rel="stylesheet" href="../style/bootstrap.min.css">
+    <title>Ella Store / Cart</title>
+
+</head>
+
+<body>
+    <!--Nav Bar-->
+    <div class="navv py-1">
+        <div class="container-fluid pt-3 pb-2 ">
+            <div class="upper">
+                <div class="row">
+                    <div class="col-3 logo pl-4 pt-2">
+                        <img class="ml-5"
+                            src="https://cdn.shopify.com/s/files/1/0064/4435/1539/files/ellamart.png?v=1617004938"
+                            alt="">
+                    </div>
+                    <div class="col-5 search">
+                        <input type="text" class="search-bar px-3" placeholder="Search the store">
+                        <i class="fa fa-search"></i>
+                    </div>
+                    <div class="col-4 icons">
+                        <div class="num">
+                            <p class="m-0">Available 24/7 at</p>
+                            <span class="num">(+84) 90 12345</span>
+                        </div>
+                        <div class="heart">
+                            <i class="fa fa-heart"></i>
+                            <p>Wish Lists</p>
+                        </div>
+                        <div class="user">
+                            <i class="fa fa-user"></i>
+                            <p>sign in</p>
+                        </div>
+                        <div class="cart">
+                            <i class="fa fa-shopping-cart"></i>
+                            <p>Cart </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="lower pb-1">
+                <div class="row pl-4 pt-3">
+                    <div class="col-9">
+                        <ul class="list-unstyled d-flex m-0">
+                            <li style="margin-left: 35px;"><a href="#">New In</a></li>
+                            <li><a href="#">Must Have</a></li>
+                            <li><a href="#">Trend</a></li>
+                            <li><a href="#">Theme Demos</a></li>
+                            <li><a href="#">Child Themes</a></li>
+                            <li><a href="#">Pages</a></li>
+                            <li><a href="#">Buy Theme</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-3 d-flex justify-content-end pr-5 position-relative">
+                        <span class="help mr-5 d-block position-relative">
+                            <i class="fa fa-user pr-1" style="color: #0a6cdc;font-family: fontawesome;"></i>
+                            <span>Help</span>
+                        </span>
+                        <span class="lang mr-4 pr-2 position-relative d-block">
+                            <img class="mr-1"
+                                src="https://cdn.shopify.com/s/files/1/0064/4435/1539/t/3/assets/i-lang-1.png?v=2188912747239887746"
+                                alt="">
+                            <span>EN/USD</span>
+                            <div class="lang-list p-3">
+                                <div class="EN pb-2">
+                                    <img class="mr-1"
+                                        src="https://cdn.shopify.com/s/files/1/0064/4435/1539/t/3/assets/i-lang-1.png?v=2188912747239887746"
+                                        alt="">
+                                    <span>EN</span>
+                                </div>
+                                <div class="USD">
+                                    <img class="mr-1"
+                                        src="https://cdn.shopify.com/s/files/1/0064/4435/1539/t/3/assets/i-currency-1_23x.png?v=11890214651498029047"
+                                        alt="">
+                                    <span>USD</span>
+                                </div>
+                                <div class="DE">
+                                    <img class="mr-1"
+                                        src="https://cdn.shopify.com/s/files/1/0064/4435/1539/t/3/assets/i-lang-2.png?v=7201868209134045156"
+                                        alt="">
+                                    <span>DE</span>
+                                </div>
+                            </div>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Fixed Side Menu-->
+    <div class="fixed-side" style="flex-direction: column;">
+        <div class="closee position-absolute">
+            <i class="fa fa-chevron-right"></i>
+        </div>
+        <div class="cart">
+            <i class="fa fa-shopping-cart"></i>
+        </div>
+        <div class="camera">
+            <span class="title">Recentley Viewed</span>
+            <i class="fa fa-camera"></i>
+            <span>Sorry, There are no products</span>
+        </div>
+        <div class="to-top">
+            <div class="all">
+                <i class="fa fa-arrow-up-long"></i>
+                <span>TOP</span>
+            </div>
+        </div>
+    </div>
+    <div class="small-list position-fixed">
+        <i class="fa fa-home pb-2 openn"></i>
+        <i class="fa fa-arrow-up-long pt-2 pb-2 to-top-2"></i>
+    </div>
+
+    <!--solid NaveBar-->
+    <div class="fixed-navv">
+        <div class="row">
+            <div class="col-10">
+                <ul class="list-unstyled d-flex">
+                    <li class="ml-2"><img
+                            src="https://cdn.shopify.com/s/files/1/0064/4435/1539/files/ellamart.png?v=1617004938"
+                            alt=""></li>
+                    <li><a href="#">New In</a></li>
+                    <li><a href="#">Must Have</a></li>
+                    <li><a href="#">Trend</a></li>
+                    <li><a href="#">Theme Demos</a></li>
+                    <li><a href="#">Child Themes</a></li>
+                    <li><a href="#">Pages</a></li>
+                    <li><a href="#">Buy Theme</a></li>
+                </ul>
+            </div>
+            <div class="col-2 d-flex justify-content-end">
+                <div class="search">
+                    <i class="fa fa-search"></i>
+                </div>
+                <div class="cart">
+                    <i class="fa fa-shopping-cart"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Responsive Nav-->
+    <div class="res-navv">
+        <div class="container-fluid px-5">
+            <div class="row py-3 px-5">
+                <div class="col-4">
+                    <div class="menu">
+                        <i class="fa fa-bars"></i>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="logo d-flex justify-content-center">
+                        <img src="https://cdn.shopify.com/s/files/1/0064/4435/1539/files/logo-footer.png?v=1615513680"
+                            alt="">
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="cart text-right">
+                        <i class="fa fa-shopping-cart"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="search position-relative">
+            <input type="search" placeholder="Search" class="w-100">
+            <i class="fa fa-search position-absolute"></i>
+        </div>
+        <div class="overlay"></div>
+        <div class="toggle-menu">
+            <ul class="list-unstyled">
+                <li><a href="#">New In</a></li>
+                <hr>
+                <li><a href="#">Must Have</a></li>
+                <hr>
+                <li><a href="#">Trend</a></li>
+                <hr>
+                <li><a href="#">Theme Demos</a></li>
+                <hr>
+                <li><a href="#">Child Themes</a></li>
+                <hr>
+                <li><a href="#">Pages</a></li>
+                <hr>
+                <li><a href="#">Buy Theme</a></li>
+                <hr>
+            </ul>
+            <div class="help">
+                <p>Availabe 24/7 at <span class="num">(+84) 90 12345</span></p>
+                <p>Wunschzettel</p>
+                <p>Anmelden</p>
+                <i class="fa fa-user"></i><span>Help</span>
+            </div>
+            <hr>
+            <div class="currency">
+                <p class="title">Currency</p>
+                <div class="row">
+                    <div class="col-6 mb-4">
+                        <div class="usd">
+                            <img src="https://cdn.shopify.com/s/files/1/0064/4435/1539/t/3/assets/i-currency-1_23x.png?v=11890214651498029047"
+                                alt="">
+                            <span>USD</span>
+                        </div>
+                    </div>
+                    <div class="col-6 mb-4">
+                        <div class="en">
+                            <img src="https://cdn.shopify.com/s/files/1/0064/4435/1539/t/3/assets/i-currency-3_23x.png?v=17755439837673696050"
+                                alt="">
+                            <span>GBP</span>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="de">
+                            <img src="https://cdn.shopify.com/s/files/1/0064/4435/1539/t/3/assets/i-currency-2_23x.png?v=4240992007912646428"
+                                alt="">
+                            <span>EUR</span>
+                        </div>
+                    </div>
+                </div>
+                <p class="title">Languages</p>
+                <div class="row">
+                    <div class="col-6 mb-3">
+                        <div class="en">
+                            <img src="https://cdn.shopify.com/s/files/1/0064/4435/1539/t/3/assets/i-currency-3_23x.png?v=17755439837673696050"
+                                alt="">
+                            <span>EN</span>
+                        </div>
+                    </div>
+                    <div class="col-6 mb-3">
+                        <div class="usd">
+                            <img src="https://cdn.shopify.com/s/files/1/0064/4435/1539/t/3/assets/i-currency-1_23x.png?v=11890214651498029047"
+                                alt="">
+                            <span>USD</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Progress Bar-->
+    <div class="progress-dev px-0 px-sm-4">
+        <div class="container-fluid px-md-5 px-sm-0 py-3">
+            <div class="links">
+                <span class="home"><a href="#">Home /</a></span>
+                <span class="current"> Shopping Cart</span>
+                <h3 class="title mb-4 pb-2 mt-3">MY CART</h3>
+            </div>
+            <div class="progress position-relative">
+                <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar"
+                    aria-valuenow="7" aria-valuemin="0" aria-valuemax="100" style="width: 7%"></div>
+                <div class="percentage position-absolute">
+                    <span class="num">7</span class="sign"><span>%</span>
+                </div>
+            </div>
+            <div class="free-ship py-2">
+                <p class="desc">Only <span>$</span><strong>741.00</strong> Away From <strong>Free Shipping</strong></p>
+            </div>
+        </div>
+    </div>
+
+    <!--Cart Products-->
+    <div class="cart-items px-0 px-sm-4">
+        <div class="container-fluid px-md-5 px-sm-0">
+            <div class="row">
+                <div class="col-lg-8 col-xl-9 products-form">
+                    <form action="">
+                        <div class="header d-flex justify-content-between my-2">
+                            <div class="product-side">
+                                <span>Products</span>
+                            </div>
+                            <div class="other-info">
+                                <span class="price">Price</span>
+                                <span class="quantity d-none d-lg-inline">Quantity</span>
+                                <span class="d-lg-inline d-none">Total</span>
+                            </div>
+                        </div>
+                        <div class="body d-flex justify-content-between align-items-center p-4">
+                            <div class="product-side d-flex align-items-center overflow-hidden">
+                                <div class="product-img">
+                                    <img src="https://cdn.shopify.com/s/files/1/0064/4435/1539/products/surfboard-18_160x.jpg?v=1622102656"
+                                        alt="">
+                                </div>
+                                <div class="product-content pl-3">
+                                    <h3 class="title">Cosmo Naminos Delementum</h3>
+                                    <em>XS / Black</em>
+                                </div>
+                            </div>
+                            <div class="other-info d-flex justify-content-center align-items-center">
+                                <span class="translate">$59.00</span>
+                                <span class="hidden-quantity d-lg-none mr-2">Quantity</span>
+                                <input type="number" min="1" value="1">
+                                <span class="remove">X</span>
+                                <span class="d-lg-inline d-none product-price">$59.00</span>
+                            </div>
+                        </div>
+                    </form>
+                    <div class="comments-area mt-4">
+                        <h3 class="comments-title">Additional comments</h3>
+                        <textarea name="comments" class="comments-box pl-4 pt-3" style="font-size: 14px;"
+                            placeholder="Special instructions for seller"></textarea>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-4">
+                    <div class="the-form">
+                        <form action="">
+                            <p class="heading">ORDER SUMMARY</p>
+                            <hr class="first-hr">
+                            <div class="sub-total mt-4 mb-3 d-flex justify-content-between">
+                                <span class="sub">Sub Total:</span>
+                                <span class="sub-money"><span class="sign">$</span><span
+                                        class="num">118.00</span></span>
+                            </div>
+                            <hr class="second-hr">
+                            <p class="shipping-title mt-2">Get Shipping Estimates</p>
+                            <div class="select-one">
+                                <select name="countries" id="countried" class="w-100 ">
+                                    <option value="Egypt">Egypt</option>
+                                    <option value="Saudi Arabia">Saudi Arabia</option>
+                                    <option value="Quatar">Quatar</option>
+                                    <option value="Seria">Seria</option>
+                                    <option value="Kuwait" selected>Kuwait</option>
+                                    <option value="Bahrin">Bahrin</option>
+                                </select>
+                            </div>
+                            <div class="select-two d-flex mt-3 justify-content-between">
+                                <select name="cities" id="cities" class="" style="width: 56%;">
+                                    <option value="Cairo">Cairo</option>
+                                    <option value="Ryadah">Ryadah</option>
+                                    <option value="Example">Example</option>
+                                    <option value="Example2">Example2</option>
+                                    <option value="Example3">Example3</option>
+                                </select>
+                                <input type="text" class="" style="width: 40%;">
+                            </div>
+                            <input type="submit" value="Calculate Shipping" class="w-100 click">
+                            <hr class="third-hr mt-2">
+                            <div class="coupon">
+                                <p class="mt-3 coupon-title">Coupon Code:</p>
+                                <input type="text" name="" id="" class="w-100 ">
+                                <span class="attention">Coupon code will be applied on the checkout page</span>
+                            </div>
+                            <hr class="fourth-hr">
+                            <div class="the-total my-4 d-flex justify-content-between">
+                                <span class="total">Total:</span>
+                                <span class="money"><span class="sign">$</span><span class="num">118.00</span></span>
+                            </div>
+                            <input type="submit" name="confirm-order" class="w-100 btn-primary"
+                                value="Proceed To Checkout">
+                            <input type="submit" name="continue-shopping" class="w-100 click m-0"
+                                value="Continue Shopping">
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!--Footer-->
+    <div class="footer">
+        <div class="container-fluid p-5">
+            <div class="subscribe text-center">
+                <div class="heading">
+                    <h3>SUBSCRIBE TO OUR NEWSLETTER</h3>
+                    <p>Get the latest updates on new products and upcoming sales</p>
+                </div>
+                <div class="inp">
+                    <input type="text" placeholder="Entr your email address">
+                    <button>Subscribe</button>
+                </div>
+            </div>
+            <div class="row pt-5 px-4">
+                <div class="col-sm-6 pb-sm-4 col-md-4 col-lg-3">
+                    <h2 class="head">CATEGOIES</h2>
+                    <p>Appliances</p>
+                    <p>Computers & Laptops</p>
+                    <p>Cameras</p>
+                    <p>Mobile Phones & Tablets</p>
+                    <p>Televisions</p>
+                    <p>Video Games & Systems</p>
+                    <p>Weekly Deals</p>
+                </div>
+                <hr>
+                <div class="col-sm-6 pb-sm-4 col-md-4 col-lg-3">
+                    <h2 class="head">FURTHER INFO.</h2>
+                    <p>About us</p>
+                    <p>Gift Certificates</p>
+                    <p>Theme Styles</p>
+                    <p>Contact us</p>
+                    <p>Blog</p>
+                    <p>Brands</p>
+                    <p>Sitemap</p>
+                </div>
+                <hr>
+                <div class="col-sm-6 pb-sm-4 col-md-4 col-lg-3">
+                    <h2 class="head">CUSTOMER SERVICE</h2>
+                    <p>Help & FAQs</p>
+                    <p>Terms of Conditions</p>
+                    <p>Privacy Policy</p>
+                    <p>Online Returns Policy</p>
+                    <p>Rewards Program</p>
+                    <p>Rebate Center</p>
+                    <p>Partners</p>
+                </div>
+                <hr>
+                <div class="col-sm-6 pb-sm-4 col-md-4 col-lg-3 contact">
+                    <div class="logo">
+                        <img src="https://cdn.shopify.com/s/files/1/0064/4435/1539/files/logo-footer.png?v=1615513680"
+                            alt="">
+                    </div>
+                    <div class="address d-flex">
+                        <i class="fa fa-location-dot mr-4"></i>
+                        <p>685 Market Street San Francisco, CA <br> 94105, US</p>
+                    </div>
+                    <div class="call d-flex">
+                        <i class="fa fa-phone mr-4"></i>
+                        <p>Call us at (415) 555-5555</p>
+                    </div>
+                    <div class="email d-flex">
+                        <i class="fa fa-envelope mr-4"></i>
+                        <p>Email: example@domain.com</p>
+                    </div>
+                    <hr>
+                    <div class="social d-flex mt-3">
+                        <i class="fab fa-facebook"></i>
+                        <i class="fab fa-twitter"></i>
+                        <i class="fab fa-instagram"></i>
+                        <i class="fab fa-youtube"></i>
+                        <i class="fab fa-tiktok"></i>
+                        <i class="fab fa-pinterest"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script src="../script/cart-script.js"></script>
+</body>
+
+</html>

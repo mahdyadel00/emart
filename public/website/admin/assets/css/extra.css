@@ -1,0 +1,30 @@
+.mtn-2{
+	margin-top: 2.2em;
+}
+.img-thumbnail {
+    max-width: 100px;
+	max-height: 100px;
+	object-fit: fill;
+}
+.modal {
+    z-index: 10000;
+}
+.cke_dialog
+{
+    z-index: 10055 !important;
+}
+.header-navbar .navbar-wrapper .navbar-container .header-notification .profile-notification a {
+    display: block;
+}
+.js-checkbox-float{
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+.dataTable p {
+    margin-bottom: 0;
+}
+.modal .btn {
+    margin-right: 2px;
+    margin-left: 2px;
+}

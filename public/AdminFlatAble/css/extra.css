@@ -1,0 +1,132 @@
+.your-message .msg-form {
+    height: 610px;
+}
+.recaptcha{
+	margin-left: 20px;
+}
+.payment-method {
+    background: #f38120;
+    color: #263238;
+    padding: 30px;
+    border-radius: 4px;
+    margin: 5px;
+    font-size: 22px;
+    text-align: center;
+    margin: 10px auto;
+    border: none;
+    border-bottom: 10px solid #263238;
+    font-weight: bold;
+}
+.payment-method-small {
+    background: #f38120;
+    color: #263238;
+    padding: 12px;
+    border-radius: 4px;
+    font-size: 18px;
+    margin: 10px auto;
+    border: none;
+    border-bottom: 10px solid #263238;
+    font-weight: bold;
+}
+.payment-method-small span{
+	float: left;
+}
+.payment-method-small img{
+	float: right;
+	width: 50px;
+}
+.login-btn{
+    color: #FFF;
+    background: #f38120;
+    border: 0;
+    width: 80px;
+    border-radius: 6px;
+    font-size: 18px;
+}
+.login-btn:hover, .login-btn:focus{
+	background: #0d4673;
+}
+.notify-alert {
+	z-index: 1030 !important;
+}
+.footer img.logo {
+    width: 160px;
+}
+nav img.img-responsive.logo {
+    width: 160px;
+}
+.insta-icon img{
+	width: 22px;
+	height: 22px;
+}
+.target-traffic .card .card-img-top {
+    object-fit: none;
+}
+.collapse .navbar-nav .nav-item .nav-link {
+    font-size: 16px !important;
+}
+.create-store form .input-group-prepend.select-input {
+  width: 80px;
+  height: 46px;
+}
+button.btn.dropdown-toggle.btn-light {
+  height: 46px;
+  line-height: 30px;
+}
+button.btn.dropdown-toggle.btn-light {
+    background: #575757;
+    color: #FFF;
+}
+
+button.btn.dropdown-toggle.btn-light:focus, button.btn.dropdown-toggle.btn-light:active {
+	border: 1px solid #f38120;
+	outline: 0 !important;
+	box-shadow: unset !important;
+    background: #575757;
+    color: #FFF;
+}
+.target-traffic .card {
+    /* border: 1px solid #0d4673 !important; */
+    margin-bottom: 30px !important;
+    border-radius: 15px !important;
+    background-color: #fff !important;
+    width: 100% !important;
+    height: 350px !important;
+    max-height: 500px !important;
+	transition: all 0.2s ease-in-out !important;
+    border-top: 5px solid #f38120 !important;
+	border-bottom: 5px solid #21365f !important;
+	text-align: center !important;
+}
+.target-traffic .card:hover {
+   background-color: #f38120 !important;
+   border: 1px solid #f38120 !important;
+}
+.target-traffic .card:hover a, .target-traffic .card:hover .card-title {
+   color: #fff
+}
+.target-traffic .card .card-img-top {
+    height: 250px !important;
+    max-height: 260px !important;
+    transition: all 0.2s !important;
+}
+.target-traffic .card .card-title a {
+    color: #0d4673 !important;
+    text-decoration: none !important;
+}
+.target-traffic .card .card-title a:hover {
+    color: #f48e37 !important;
+}
+.target-traffic .card .card-text {
+   color: #000 !important;
+}
+@media (max-width: 992px)
+{
+	.packages .card {
+		margin-bottom: 20px;
+	}
+}
+.logo img {
+    height: 50px;
+    max-width: 150px;
+}

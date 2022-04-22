@@ -1,0 +1,2451 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style/bootstrap.css">
+    <link rel="stylesheet" href="../style/home.css">
+    <link rel="stylesheet" href="../style/all.min.css" />
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css">
+    <link rel="stylesheet" href="../style/bootstrap.min.css">
+    <link rel="stylesheet" href="../fontawesome-free-6.1.0-web/css/all.css">
+    <link rel="stylesheet" href="../fontawesome-free-6.1.0-web/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400&display=swap"
+        rel="stylesheet" />
+    <title>Ella Store</title>
+
+</head>
+
+<body>
+    <!--Nav Bar-->
+    <div class="navv py-1">
+        <div class="container-fluid pt-3 pb-2 ">
+            <div class="upper">
+                <div class="row">
+                    <div class="col-3 logo pl-4 pt-2">
+                        <img class="ml-5"
+                            src="https://cdn.shopify.com/s/files/1/0064/4435/1539/files/ellamart.png?v=1617004938"
+                            alt="">
+                    </div>
+                    <div class="col-5 search">
+                        <input type="text" class="search-bar px-3" placeholder="Search the store">
+                        <i class="fa fa-search"></i>
+                    </div>
+                    <div class="col-4 icons">
+                        <div class="num">
+                            <p class="m-0">Available 24/7 at</p>
+                            <span class="num">(+84) 90 12345</span>
+                        </div>
+                        <div class="heart">
+                            <i class="fa fa-heart"></i>
+                            <p>Wish Lists</p>
+                        </div>
+                        <div class="user">
+                            <i class="fa fa-user"></i>
+                            <p>sign in</p>
+                        </div>
+                        <div class="cart">
+                            <a href="./cart.html">
+                                <i class="fa fa-shopping-cart"></i>
+                                <p>Cart </p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="lower pb-1">
+                <div class="row pl-4 pt-3">
+                    <div class="col-9">
+                        <ul class="list-unstyled d-flex m-0">
+                            <li style="margin-left: 35px;"><a href="#">New In</a></li>
+                            <li><a href="#">Must Have</a></li>
+                            <li><a href="#">Trend</a></li>
+                            <li><a href="#">Theme Demos</a></li>
+                            <li><a href="#">Child Themes</a></li>
+                            <li><a href="#">Pages</a></li>
+                            <li><a href="#">Buy Theme</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-3 d-flex justify-content-end pr-5 position-relative">
+                        <span class="help mr-5 d-block position-relative">
+                            <i class="fa fa-user pr-1" style="color: #0a6cdc;font-family: fontawesome;"></i>
+                            <span>Help</span>
+                        </span>
+                        <span class="lang mr-4 pr-2 position-relative d-block">
+                            <img class="mr-1"
+                                src="https://cdn.shopify.com/s/files/1/0064/4435/1539/t/3/assets/i-lang-1.png?v=2188912747239887746"
+                                alt="">
+                            <span>EN/USD</span>
+                            <div class="lang-list p-3">
+                                <div class="EN pb-2">
+                                    <img class="mr-1"
+                                        src="https://cdn.shopify.com/s/files/1/0064/4435/1539/t/3/assets/i-lang-1.png?v=2188912747239887746"
+                                        alt="">
+                                    <span>EN</span>
+                                </div>
+                                <div class="USD">
+                                    <img class="mr-1"
+                                        src="https://cdn.shopify.com/s/files/1/0064/4435/1539/t/3/assets/i-currency-1_23x.png?v=11890214651498029047"
+                                        alt="">
+                                    <span>USD</span>
+                                </div>
+                                <div class="DE">
+                                    <img class="mr-1"
+                                        src="https://cdn.shopify.com/s/files/1/0064/4435/1539/t/3/assets/i-lang-2.png?v=7201868209134045156"
+                                        alt="">
+                                    <span>DE</span>
+                                </div>
+                            </div>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Fixed Side Menu-->
+    <div class="fixed-side" style="flex-direction: column;">
+        <div class="closee position-absolute">
+            <i class="fa fa-chevron-right"></i>
+        </div>
+        <div class="cart">
+            <a href="./cart.html">
+                <i class="fa fa-shopping-cart"></i>
+            </a>
+        </div>
+        <div class="camera">
+            <span class="title">Recentley Viewed</span>
+            <i class="fa fa-camera" style="opacity: .3;"></i>
+            <span>Sorry, There are no products</span>
+        </div>
+        <div class="to-top">
+            <div class="all">
+                <i class="fa fa-arrow-up-long"></i>
+                <span>TOP</span>
+            </div>
+        </div>
+    </div>
+    <div class="small-list position-fixed">
+        <i class="fa fa-home pb-2 openn"></i>
+        <i class="fa fa-arrow-up-long pt-2 pb-2 to-top-2"></i>
+    </div>
+
+    <!--solid NaveBar-->
+    <div class="fixed-navv">
+        <div class="row">
+            <div class="col-10">
+                <ul class="list-unstyled d-flex">
+                    <li class="ml-2"><img
+                            src="https://cdn.shopify.com/s/files/1/0064/4435/1539/files/ellamart.png?v=1617004938"
+                            alt=""></li>
+                    <li><a href="#">New In</a></li>
+                    <li><a href="#">Must Have</a></li>
+                    <li><a href="#">Trend</a></li>
+                    <li><a href="#">Theme Demos</a></li>
+                    <li><a href="#">Child Themes</a></li>
+                    <li><a href="#">Pages</a></li>
+                    <li><a href="#">Buy Theme</a></li>
+                </ul>
+            </div>
+            <div class="col-2 d-flex justify-content-end">
+                <div class="search">
+                    <i class="fa fa-search"></i>
+                </div>
+                <div class="cart">
+                    <a href="./cart.html">
+                        <i class="fa fa-shopping-cart"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Responsive Nav-->
+    <div class="res-navv">
+        <div class="container-fluid px-5">
+            <div class="row py-3 px-5">
+                <div class="col-4">
+                    <div class="menu">
+                        <i class="fa fa-bars"></i>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="logo d-flex justify-content-center">
+                        <img src="https://cdn.shopify.com/s/files/1/0064/4435/1539/files/logo-footer.png?v=1615513680"
+                            alt="">
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="cart text-right">
+                        <a href="./cart.html">
+                            <i class="fa fa-shopping-cart"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="search position-relative">
+            <input type="search" placeholder="Search" class="w-100">
+            <i class="fa fa-search position-absolute"></i>
+        </div>
+        <div class="overlay"></div>
+        <div class="toggle-menu">
+            <ul class="list-unstyled">
+                <li><a href="#">New In</a></li>
+                <hr>
+                <li><a href="#">Must Have</a></li>
+                <hr>
+                <li><a href="#">Trend</a></li>
+                <hr>
+                <li><a href="#">Theme Demos</a></li>
+                <hr>
+                <li><a href="#">Child Themes</a></li>
+                <hr>
+                <li><a href="#">Pages</a></li>
+                <hr>
+                <li><a href="#">Buy Theme</a></li>
+                <hr>
+            </ul>
+            <div class="help">
+                <p>Availabe 24/7 at <span class="num">(+84) 90 12345</span></p>
+                <p>Wunschzettel</p>
+                <p>Anmelden</p>
+                <i class="fa fa-user"></i><span>Help</span>
+            </div>
+            <hr>
+            <div class="currency">
+                <p class="title">Currency</p>
+                <div class="row">
+                    <div class="col-6 mb-4">
+                        <div class="usd">
+                            <img src="https://cdn.shopify.com/s/files/1/0064/4435/1539/t/3/assets/i-currency-1_23x.png?v=11890214651498029047"
+                                alt="">
+                            <span>USD</span>
+                        </div>
+                    </div>
+                    <div class="col-6 mb-4">
+                        <div class="en">
+                            <img src="https://cdn.shopify.com/s/files/1/0064/4435/1539/t/3/assets/i-currency-3_23x.png?v=17755439837673696050"
+                                alt="">
+                            <span>GBP</span>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="de">
+                            <img src="https://cdn.shopify.com/s/files/1/0064/4435/1539/t/3/assets/i-currency-2_23x.png?v=4240992007912646428"
+                                alt="">
+                            <span>EUR</span>
+                        </div>
+                    </div>
+                </div>
+                <p class="title">Languages</p>
+                <div class="row">
+                    <div class="col-6 mb-3">
+                        <div class="en">
+                            <img src="https://cdn.shopify.com/s/files/1/0064/4435/1539/t/3/assets/i-currency-3_23x.png?v=17755439837673696050"
+                                alt="">
+                            <span>EN</span>
+                        </div>
+                    </div>
+                    <div class="col-6 mb-3">
+                        <div class="usd">
+                            <img src="https://cdn.shopify.com/s/files/1/0064/4435/1539/t/3/assets/i-currency-1_23x.png?v=11890214651498029047"
+                                alt="">
+                            <span>USD</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Banner-->
+    <div class="banner position-relative">
+        <div class="desc">
+            <h2><strong>Huge Saving</strong> on <br> UHD Televisions</h2>
+            <p>Sale up to 70% off on selected items*</p>
+            <button>Shop Now</button>
+        </div>
+        <img class="position-absolute"
+            src="https://cdn.shopify.com/s/files/1/0064/4435/1539/files/slider-supermarket-1_8e7ff03d-fe3d-48e3-a8ce-0af729b9d4b1.jpg?v=1638361692"
+            alt="">
+    </div>
+
+    <!--After Banner-->
+    <section class="sec-one">
+        <div class="container-fluid">
+            <div class="row text-center">
+                <div class="col-md-4 col-sm-6 pl-md-5 dad">
+                    <i class="fa fa-truck"></i>
+                    <span>Free Shipping & Returns</span>
+                </div>
+                <hr>
+                <div class="col-md-4 col-sm-6 mid position-relative dad">
+                    <i class="fa fa-certificate"></i>
+                    <span>Lowest Price Guarantee</span>
+                </div>
+                <hr>
+                <div class="col-md-4 col-sm-6 pr-md-5 mt-sm-3 mt-md-0 dad">
+                    <i class="fa fa-trophy"></i>
+                    <span>Longest Warranties Offer</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Section Two 5 Pics-->
+    <section class="sec-two">
+        <div class="container-fluid" style="padding: 20px 80px;">
+            <div class="row">
+                <div class="col-md-4 col-sm-6 dad">
+                    <div class="img-parent">
+                        <img src="https://cdn.shopify.com/s/files/1/0064/4435/1539/files/banner-custom-top-3-1_1024x1024_crop_center.jpg?v=1616145108"
+                            alt="">
+                        <div class="overlay"></div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 dad">
+                    <div class="img-parent">
+                        <img src="https://cdn.shopify.com/s/files/1/0064/4435/1539/files/banner-custom-top-3-2_1024x1024_crop_center.jpg?v=1616147842"
+                            alt="">
+                        <div class="overlay"></div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 dad">
+                    <div class="img-parent">
+                        <img src="https://cdn.shopify.com/s/files/1/0064/4435/1539/files/banner-custom-top-3-3_1024x1024_crop_center.jpg?v=1616147850"
+                            alt="">
+                        <div class="overlay"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 col-sm-6 dad">
+                    <div class="img-parent">
+                        <img src="https://cdn.shopify.com/s/files/1/0064/4435/1539/files/banner-custom-top-2-1_1024x1024_crop_center.jpg?v=1616150952"
+                            alt="">
+                        <div class="overlay"></div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-sm-6 dad">
+                    <div class="img-parent">
+                        <img src="https://cdn.shopify.com/s/files/1/0064/4435/1539/files/banner-custom-top-2-2_1024x1024_crop_center.jpg?v=1616150962"
+                            alt="">
+                        <div class="overlay"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Mahmoud-->
+
+    <!--Flash Deals-->
+    <div class="flash_deals">
+        <div class="containre">
+            <h2>flash deals</h2>
+            <div class="swiper mySwiper" style="height: 550px;">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide one">
+                        <div class="special_box">
+                            <a class="images" href="#">
+                                <span class="sale">sale</span>
+                                <img class="black active" src="../images/home/product-laptop-1.webp" alt="laptop" />
+                                <img class="hover" src="../images/home/product-laptop-2.webp" alt="laptop" />
+                                <img class="biege"
+                                    src="../images/home/product-laptop-5_5499560d-5bc4-449a-a30a-3fcd93a0e9ea.webp"
+                                    alt="laptop" />
+                                <img class="slategray" src="../images/home/product-laptop-3.webp" alt="laptop" />
+                                <img class="sandybrown" src="../images/home/product-laptop-4_cf75.webp" alt="laptop" />
+                                <button class="quick-view">
+                                    Quick View
+                                    <i class="fa-solid fa-up-right-from-square"></i>
+                                </button>
+                            </a>
+                            <span class="stars">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star unstar"></i>
+                                <i class="fa-solid fa-star-half-stroke"></i>
+                            </span>
+                            <a class="pro_tittle" href="">
+                                Hentum Tosmois de Laptop Hamo Dincidunts -
+                                <span class="selescted_color">black</span>
+                            </a>
+                            <div class="price">
+                                <del>$56.00</del>
+                                <span>from</span>
+                                <strong>$49.00</strong>
+                            </div>
+                            <div class="switch-bullets">
+                                <span class="black"></span>
+                                <span class="biege"></span>
+                                <span class="slategray"></span>
+                                <span class="sandybrown"></span>
+                            </div>
+                            <div class="select-option">
+                                <a href="">select option</a>
+                                <i class="fa-regular fa-heart"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide two">
+                        <div class="special_box">
+                            <a class="images" href="#">
+                                <span class="sale">sale</span>
+                                <img class="black active"
+                                    src="../images/home/product-app-1_fb22dfcd-1532-40cd-9017-70c7cceed9e8.webp"
+                                    alt="product-app" />
+                                <img class="hover"
+                                    src="../images/home/product-app-3_275905fd-215f-4522-9570-bae7c4f3ac3c.webp"
+                                    alt="product-app" />
+                                <img class="biege"
+                                    src="../images/home/product-app-2_50568174-f5b3-4d14-aaf3-d2b6f7ce1964.webp"
+                                    alt="product-app" />
+                                <img class="slategray"
+                                    src="../images/home/product-app-4_23546feb-c1d6-4645-819e-10afcda659f6.webp"
+                                    alt="product-app" />
+                                <img class="sandybrown"
+                                    src="../images/home/product-app-3_275905fd-215f-4522-9570-bae7c4f3ac3c.webp"
+                                    alt="product-app" />
+                                <button class="quick-view">
+                                    Quick View
+                                    <i class="fa-solid fa-up-right-from-square"></i>
+                                </button>
+                            </a>
+                            <span class="stars">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-half-stroke"></i>
+                            </span>
+                            <a class="pro_tittle" href="">
+                                Home Tosmois de Cras Hamo Dincidunts -
+                                <span class="selescted_color">black</span>
+                            </a>
+                            <div class="price">
+                                <del>$56.00</del>
+                                <span>from</span>
+                                <strong>$49.00</strong>
+                            </div>
+                            <div class="switch-bullets">
+                                <span class="black"></span>
+                                <span class="biege"></span>
+                                <span class="slategray"></span>
+                                <span class="sandybrown"></span>
+                            </div>
+                            <div class="select-option">
+                                <a href="">select option</a>
+                                <i class="fa-regular fa-heart"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide three">
+                        <div class="special_box">
+                            <a class="images" href="#">
+                                <span class="sale">sale</span>
+                                <img class="black active"
+                                    src="../images/home/product-tivi-1_ad5097e1-ea23-4ccf-b4a5-dc2c9b4f35f1.webp"
+                                    alt="tivi" />
+                                <img class="hover"
+                                    src="../images/home/product-tivi-4_cf4fe2f6-95de-4eaa-85c3-0d93cd28da07.webp"
+                                    alt="tivi" />
+                                <img class="biege"
+                                    src="../images/home/product-tivi-2_88cda809-75af-49eb-8a94-8fa4e37702fd.webp"
+                                    alt="tivi" />
+                                <img class="slategray"
+                                    src="../images/home/product-tivi-3_059ad191-8644-495d-9766-6edb7ce0e013.webp"
+                                    alt="tivi" />
+                                <img class="sandybrown"
+                                    src="../images/home/product-app-2_50568174-f5b3-4d14-aaf3-d2b6f7ce1964.webp"
+                                    alt="tivi" />
+                                <button class="quick-view">
+                                    Quick View
+                                    <i class="fa-solid fa-up-right-from-square"></i>
+                                </button>
+                            </a>
+                            <span class="stars">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-half-stroke"></i>
+                            </span>
+                            <a class="pro_tittle" href="">
+                                Hentum Tosmois de Cras Tele Hamo Dincidunts -
+                                <span class="selescted_color">black</span>
+                            </a>
+                            <div class="price">
+                                <del>$56.00</del>
+                                <span>from</span>
+                                <strong>$49.00</strong>
+                            </div>
+                            <div class="switch-bullets">
+                                <span class="black"></span>
+                                <span class="biege"></span>
+                                <span class="slategray"></span>
+                                <span class="sandybrown"></span>
+                            </div>
+                            <div class="select-option">
+                                <a href="">select option</a>
+                                <i class="fa-regular fa-heart"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide four">
+                        <div class="special_box">
+                            <a class="images" href="#">
+                                <span class="sale">sale</span>
+                                <img class="black active"
+                                    src="../images/home/product-11-5black_ecbb6350-5f7d-4b8f-b286-f44193317da1.webp"
+                                    alt="phone" />
+                                <img class="hover"
+                                    src="../images/home/product-11-2hover_a1b33940-f66d-40b7-ae4b-d2ff12806c0a.webp"
+                                    alt="phone" />
+                                <img class="biege"
+                                    src="../images/home/product-11-biefe1_72155a55-50a0-4f4a-a8f4-cc8015e7f439.webp"
+                                    alt="phone" />
+                                <img class="slategray"
+                                    src="../images/home/product-11-4setaregy_7af0d8d8-0539-4d2d-83eb-bb60a6468cc4.webp"
+                                    alt="phone" />
+                                <img class="sandybrown"
+                                    src="../images/home/product-11-3_last19431b5d-89d8-48db-884e-fc82b6c111c5.webp"
+                                    alt="phone" />
+                                <button class="quick-view">
+                                    Quick View
+                                    <i class="fa-solid fa-up-right-from-square"></i>
+                                </button>
+                            </a>
+                            <span class="stars">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-half-stroke"></i>
+                            </span>
+                            <a class="pro_tittle" href="">
+                                Kill Giother Nodels Coped Permi Unde Ona -
+                                <span class="selescted_color">black</span>
+                            </a>
+                            <div class="price">
+                                <del>$56.00</del>
+                                <span>from</span>
+                                <strong>$49.00</strong>
+                            </div>
+                            <div class="switch-bullets">
+                                <span class="black"></span>
+                                <span class="biege"></span>
+                                <span class="slategray"></span>
+                                <span class="sandybrown"></span>
+                            </div>
+                            <div class="select-option">
+                                <a href="">select option</a>
+                                <i class="fa-regular fa-heart"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide five">
+                        <div class="special_box">
+                            <a class="images" href="#">
+                                <span class="sale">sale</span>
+                                <img class="black active" src="../images/home/product-black-airPods-1.webp"
+                                    alt="airPods" />
+                                <img class="hover" src="../images/home/product-hover-airPods-2.webp" alt="airPods" />
+                                <img class="biege" src="../images/home/product-airPods-3.webp" alt="airPods" />
+                                <img class="slategray" src="../images/home/product-airPods-4.webp" alt="airPods" />
+                                <img class="sandybrown" src="../images/home/product-black-airPods-1.webp"
+                                    alt="airPods" />
+                                <button class="quick-view">
+                                    Quick View
+                                    <i class="fa-solid fa-up-right-from-square"></i>
+                                </button>
+                            </a>
+                            <span class="stars">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </span>
+                            <a class="pro_tittle" href="">
+                                Permi Unde Ona pharetras praneu homuir -
+                                <span class="selescted_color">black</span>
+                            </a>
+                            <div class="price">
+                                <del>$56.00</del>
+                                <span>from</span>
+                                <strong>$49.00</strong>
+                            </div>
+                            <div class="switch-bullets">
+                                <span class="black"></span>
+                                <span class="biege"></span>
+                                <span class="slategray"></span>
+                                <span class="sandybrown"></span>
+                            </div>
+                            <div class="select-option">
+                                <a href="">select option</a>
+                                <i class="fa-regular fa-heart"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+    </div>
+
+    <!--End Flash Deals-->
+
+    <section class="best_offer">
+        <a href="">
+            <img src="../images/home/best_offer_ea59337b-c31d-4433-83d7-f0f2764ca227_1920x.webp" alt="" />
+        </a>
+    </section>
+
+    <section class="shop-byCategorey">
+        <div class="containre">
+            <header>
+                <h2>Shop by Categories</h2>
+                <a href="">Shop All</a>
+            </header>
+            <ul class="categories">
+                <li>
+                    <a href="">
+                        <img src="../images/home/icon-phone_1024x1024_crop_center.webp" alt="" />
+                        <span>Mobile Phones</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <img src="../images/home/icon-lap_1024x1024_crop_center.webp" alt="" />
+                        <span>Laptops & Tablets </span>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <img src="../images/home/icon-tivi_1024x1024_crop_center.webp" alt="" />
+                        <span>Televisions</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <img src="../images/home/icon-pc_1024x1024_crop_center.webp" alt="" />
+                        <span>PCs & Accessories</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <img src="../images/home/icon-audio_1024x1024_crop_center.webp" alt="" />
+                        <span>Audio & Video</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <img src="../images/home/icon-game_1024x1024_crop_center.webp" alt="" />
+                        <span>Gaming</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <img src="../images/home/icon-fridge_1024x1024_crop_center.webp" alt="" />
+                        <span>Home Appliances</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <img src="../images/home/icon-microwave_1024x1024_crop_center.webp" alt="" />
+                        <span>Kitchen Appliances</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <img src="../images/home/icon-camera_1024x1024_crop_center.webp" alt="" />
+                        <span>Cameras</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <img src="../images/home/icon-kettle_1024x1024_crop_center.webp" alt="" />
+                        <span>Consumables</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <img src="../images/home/icon-smart_1024x1024_crop_center.webp" alt="" />
+                        <span>Smart Homes</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <img src="../images/home/icon-headphone_1024x1024_crop_center.webp" alt="" />
+                        <span>Accessories</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <!--Whats New-->
+    <section class="whats_new">
+        <div class="containre">
+            <header class="headerOfSection">
+                <h2>What's New</h2>
+                <a href="">Shop All</a>
+            </header>
+            <div class="content">
+                <div>
+                    <div class="Secial-products">
+                        <div class="swiper mySwipeer" style="height: 550px;">
+                            <div class="swiper-wrapper" style="position: relative!important;">
+                                <div class="swiper-slide one">
+                                    <div class="special_box">
+                                        <a class="images" href="#">
+                                            <span class="sale new">New</span>
+                                            <img class="black active" src="../images/home/product-laptop-new-1.webp"
+                                                alt="laptop" />
+                                            <img class="hover" src="../images/home/product-laptop-new-2.webp"
+                                                alt="laptop" />
+                                            <img class="biege" src="../images/home/product-laptop-new-3 (1).webp"
+                                                alt="laptop" />
+                                            <img class="slategray" src="../images/home/product-laptop-new-5 (1).webp"
+                                                alt="laptop" />
+                                            <img class="sandybrown" src="../images/home/product-laptop-new-2.webp"
+                                                alt="laptop" />
+                                            <button class="quick-view">
+                                                Quick View
+                                                <i class="fa-solid fa-up-right-from-square"></i>
+                                            </button>
+                                        </a>
+                                        <span class="stars">
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star-half-stroke"></i>
+                                        </span>
+                                        <a class="pro_tittle" href="">
+                                            Hentum Tosmois de Laptop Hamo Dincidunts -
+                                            <span class="selescted_color">black</span>
+                                        </a>
+                                        <div class="price">
+                                            <del>$56.00</del>
+                                            <span>from</span>
+                                            <strong>$49.00</strong>
+                                        </div>
+                                        <div class="switch-bullets">
+                                            <span class="black"></span>
+                                            <span class="biege"></span>
+                                            <span class="slategray"></span>
+                                            <span class="sandybrown"></span>
+                                        </div>
+                                        <div class="select-option">
+                                            <a href="">select option</a>
+                                            <i class="fa-regular fa-heart"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide two">
+                                    <div class="special_box">
+                                        <a class="images" href="#">
+                                            <span class="sale new">New</span>
+                                            <img class="black active"
+                                                src="../images/home/product-tivi-1_ad5097e1-ea23-4ccf-b4a5-dc2c9b4f35f1.webp"
+                                                alt="tivi" />
+                                            <img class="hover"
+                                                src="../images/home/product-tivi-4_cf4fe2f6-95de-4eaa-85c3-0d93cd28da07.webp"
+                                                alt="tivi" />
+                                            <img class="biege"
+                                                src="../images/home/product-tivi-2_88cda809-75af-49eb-8a94-8fa4e37702fd.webp"
+                                                alt="tivi" />
+                                            <img class="slategray"
+                                                src="../images/home/product-tivi-3_059ad191-8644-495d-9766-6edb7ce0e013.webp"
+                                                alt="tivi" />
+                                            <img class="sandybrown"
+                                                src="../images/home/product-app-2_50568174-f5b3-4d14-aaf3-d2b6f7ce1964.webp"
+                                                alt="tivi" />
+                                            <button class="quick-view">
+                                                Quick View
+                                                <i class="fa-solid fa-up-right-from-square"></i>
+                                            </button>
+                                        </a>
+                                        <span class="stars">
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star-half-stroke"></i>
+                                        </span>
+                                        <a class="pro_tittle" href="">
+                                            Hentum Tosmois de Cras Tele Hamo Dincidunts -
+                                            <span class="selescted_color">black</span>
+                                        </a>
+                                        <div class="price">
+                                            <del>$56.00</del>
+                                            <span>from</span>
+                                            <strong>$49.00</strong>
+                                        </div>
+                                        <div class="switch-bullets">
+                                            <span class="black"></span>
+                                            <span class="biege"></span>
+                                            <span class="slategray"></span>
+                                            <span class="sandybrown"></span>
+                                        </div>
+                                        <div class="select-option">
+                                            <a href="">select option</a>
+                                            <i class="fa-regular fa-heart"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide three">
+                                    <div class="special_box">
+                                        <a class="images" href="#">
+                                            <img class="black active" src="../images/home/product-laptop-1.webp"
+                                                alt="laptop" />
+                                            <img class="hover" src="../images/home/product-laptop-2.webp"
+                                                alt="laptop" />
+                                            <img class="biege"
+                                                src="../images/home/product-laptop-5_5499560d-5bc4-449a-a30a-3fcd93a0e9ea.webp"
+                                                alt="laptop" />
+                                            <img class="slategray" src="../images/home/product-laptop-3.webp"
+                                                alt="laptop" />
+                                            <img class="sandybrown" src="../images/home/product-laptop-4_cf75.webp"
+                                                alt="laptop" />
+                                            <button class="quick-view">
+                                                Quick View
+                                                <i class="fa-solid fa-up-right-from-square"></i>
+                                            </button>
+                                        </a>
+                                        <span class="stars">
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+
+                                            <i class="fa-solid fa-star-half-stroke"></i>
+                                        </span>
+                                        <a class="pro_tittle" href="">
+                                            Hentum Tosmois de Laptop Hamo Dincidunts -
+                                            <span class="selescted_color">black</span>
+                                        </a>
+                                        <div class="price">
+                                            <del>$56.00</del>
+                                            <span>from</span>
+                                            <strong>$49.00</strong>
+                                        </div>
+                                        <div class="switch-bullets">
+                                            <span class="black"></span>
+                                            <span class="biege"></span>
+                                            <span class="slategray"></span>
+                                            <span class="sandybrown"></span>
+                                        </div>
+                                        <div class="select-option">
+                                            <a href="">select option</a>
+                                            <i class="fa-regular fa-heart"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-pagination"></div>
+                        </div>
+                    </div>
+                </div>
+                <img src="../images/home/feature-banner-1_5050a224-50f4-423d-adfb-6ba291f1db21_970x.webp"
+                    alt="feature" />
+            </div>
+        </div>
+    </section>
+
+    <section class="about">
+        <ul class="containre">
+            <li>
+                <a href="" class="about-box">
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                    <h2>Quality and Saving</h2>
+                    <p>Comprehensive quality control and affordable prices</p>
+                </a>
+            </li>
+            <li>
+                <a href="" class="about-box">
+                    <i class="fa-solid fa-warehouse"></i>
+                    <h2>Global Warehouse</h2>
+                    <p>37 overseas warehouses</p>
+                </a>
+            </li>
+            <li>
+                <a href="" class="about-box">
+                    <i class="fa-solid fa-truck-fast"></i>
+                    <h2>Fast Shipping</h2>
+                    <p>Fast and convenient door to door delivery</p>
+                </a>
+            </li>
+
+            <li>
+                <a href="" class="about-box">
+                    <i class="fa-solid fa-user-shield"></i>
+                    <h2>Payment Security</h2>
+                    <p>More than 10 different secure payment methods</p>
+                </a>
+            </li>
+            <li>
+                <a href="" class="about-box">
+                    <i class="fa-solid fa-circle-question"></i>
+                    <h2>Have Questions?</h2>
+                    <p>24/7 Customer Service - We’re here and happy to help!</p>
+                </a>
+            </li>
+        </ul>
+    </section>
+
+
+    <!--Top Mo Menu-->
+    <section class="TopMoPhone">
+        <div class="containre">
+            <header class="headerOfSection">
+                <h2>Top Mobile Phones</h2>
+                <a href="">Shop All</a>
+            </header>
+            <div class="swiper mySwiper" style="height: 550px;">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide one">
+                        <div class="special_box">
+                            <a class="images" href="#">
+                                <span class="sale">sale</span>
+                                <img draggable="false" class="black active" src="../images/home/product-loa-1.webp"
+                                    alt="laptop" />
+                                <img class="hover" src="../images/home/product-loa-2.webp" alt="laptop" />
+                                <img class="biege" src="../images/home/product-loa-3.webp" alt="laptop" />
+                                <img class="slategray" src="../images/home/product-loa-1.webp" alt="laptop" />
+                                <img class="sandybrown" src="../images/home/product-loa-3.webp" alt="laptop" />
+                                <button class="quick-view">
+                                    Quick View
+                                    <i class="fa-solid fa-up-right-from-square"></i>
+                                </button>
+                            </a>
+                            <span class="stars">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star unstar"></i>
+                            </span>
+                            <a class="pro_tittle" href="">
+                                Hentum Tosmois de Laptop Hamo Dincidunts -
+                                <span class="selescted_color">black</span>
+                            </a>
+                            <div class="price">
+                                <del>$99.00</del>
+                                <span>from</span>
+                                <strong>$60.00</strong>
+                            </div>
+                            <div class="switch-bullets">
+                                <span class="black"></span>
+                                <span class="biege"></span>
+                                <span class="slategray"></span>
+                                <span class="sandybrown"></span>
+                            </div>
+                            <div class="select-option">
+                                <a href="">select option</a>
+                                <i class="fa-regular fa-heart"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide three">
+                        <div class="special_box">
+                            <a class="images" href="#">
+                                <span class="sale">sale</span>
+                                <img class="black active" src="../images/home/mop-2-sec-product-2-1.webp" alt="tivi" />
+                                <img class="hover" src="../images/home/mop-2-sec-product-2-2.webp" alt="tivi" />
+                                <img class="biege" src="../images/home/mop-2-sec-product-2-3.webp" alt="tivi" />
+                                <img class="slategray" src="../images/home/mop-2-sec-product-2-4.webp" alt="tivi" />
+                                <img class="sandybrown" src="../images/home/mop-2-sec-product-2-1.webp" alt="tivi" />
+                                <button class="quick-view">
+                                    Quick View
+                                    <i class="fa-solid fa-up-right-from-square"></i>
+                                </button>
+                            </a>
+                            <span class="stars">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-half-stroke"></i>
+                            </span>
+                            <a class="pro_tittle" href="">
+                                Hentum Tosmois de Cras Tele Hamo Dincidunts -
+                                <span class="selescted_color">black</span>
+                            </a>
+                            <div class="price">
+                                <del>$56.00</del>
+                                <span>from</span>
+                                <strong>$49.00</strong>
+                            </div>
+                            <div class="switch-bullets">
+                                <span class="black"></span>
+                                <span class="biege"></span>
+                                <span class="slategray"></span>
+                                <span class="sandybrown"></span>
+                            </div>
+                            <div class="select-option">
+                                <a href="">select option</a>
+                                <i class="fa-regular fa-heart"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide four">
+                        <div class="special_box">
+                            <a class="images" href="#">
+                                <span class="sale">sale</span>
+                                <img class="black active"
+                                    src="../images/home/product-11-5black_ecbb6350-5f7d-4b8f-b286-f44193317da1.webp"
+                                    alt="phone" />
+                                <img class="hover"
+                                    src="../images/home/product-11-2hover_a1b33940-f66d-40b7-ae4b-d2ff12806c0a.webp"
+                                    alt="phone" />
+                                <img class="biege"
+                                    src="../images/home/product-11-biefe1_72155a55-50a0-4f4a-a8f4-cc8015e7f439.webp"
+                                    alt="phone" />
+                                <img class="slategray"
+                                    src="../images/home/product-11-4setaregy_7af0d8d8-0539-4d2d-83eb-bb60a6468cc4.webp"
+                                    alt="phone" />
+                                <img class="sandybrown"
+                                    src="../images/home/product-11-3_last19431b5d-89d8-48db-884e-fc82b6c111c5.webp"
+                                    alt="phone" />
+                                <button class="quick-view">
+                                    Quick View
+                                    <i class="fa-solid fa-up-right-from-square"></i>
+                                </button>
+                            </a>
+                            <span class="stars">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-half-stroke"></i>
+                            </span>
+                            <a class="pro_tittle" href="">
+                                Kill Giother Nodels Coped Permi Unde Ona -
+                                <span class="selescted_color">black</span>
+                            </a>
+                            <div class="price">
+                                <del>$56.00</del>
+                                <span>from</span>
+                                <strong>$49.00</strong>
+                            </div>
+                            <div class="switch-bullets">
+                                <span class="black"></span>
+                                <span class="biege"></span>
+                                <span class="slategray"></span>
+                                <span class="sandybrown"></span>
+                            </div>
+                            <div class="select-option">
+                                <a href="">select option</a>
+                                <i class="fa-regular fa-heart"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide five">
+                        <div class="special_box">
+                            <a class="images" href="#">
+                                <span class="sale">sale</span>
+                                <img class="black active" src="../images/home/mopsec-product-4-3.webp"
+                                    alt="product-app" />
+                                <img class="hover" src="../images/home/mopsec-product-4-1.webp" alt="product-app" />
+                                <img class="biege" src="../images/home/mopsec-product-4-4.webp" alt="product-app" />
+                                <img class="slategray" src="../images/home/mopsec-product-4-5.webp" alt="product-app" />
+                                <img class="sandybrown" src="../images/home/mopsec-product-4-1.webp"
+                                    alt="product-app" />
+                                <button class="quick-view">
+                                    Quick View
+                                    <i class="fa-solid fa-up-right-from-square"></i>
+                                </button>
+                            </a>
+                            <span class="stars">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </span>
+                            <a class="pro_tittle" href="">
+                                Home Tosmois de Cras Hamo Dincidunts -
+                                <span class="selescted_color">black</span>
+                            </a>
+                            <div class="price">
+                                <del>$320.00</del>
+                                <span>from</span>
+                                <strong>$160.00</strong>
+                            </div>
+                            <div class="switch-bullets">
+                                <span class="black"></span>
+                                <span class="biege"></span>
+                                <span class="slategray"></span>
+                                <span class="sandybrown"></span>
+                            </div>
+                            <div class="select-option">
+                                <a href="">select option</a>
+                                <i class="fa-regular fa-heart"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide six">
+                        <div class="special_box">
+                            <a class="images" href="#">
+                                <span class="sale">sale</span>
+                                <img class="black active" src="../images/home/product-black-airPods-1.webp"
+                                    alt="airPods" />
+                                <img class="hover" src="../images/home/product-hover-airPods-2.webp" alt="airPods" />
+                                <img class="biege" src="../images/home/product-airPods-3.webp" alt="airPods" />
+                                <img class="slategray" src="../images/home/product-airPods-4.webp" alt="airPods" />
+                                <img class="sandybrown" src="../images/home/product-black-airPods-1.webp"
+                                    alt="airPods" />
+                                <button class="quick-view">
+                                    Quick View
+                                    <i class="fa-solid fa-up-right-from-square"></i>
+                                </button>
+                            </a>
+                            <span class="stars">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </span>
+                            <a class="pro_tittle" href="">
+                                Permi Unde Ona pharetras praneu homuir -
+                                <span class="selescted_color">black</span>
+                            </a>
+                            <div class="price">
+                                <del>$56.00</del>
+                                <span>from</span>
+                                <strong>$49.00</strong>
+                            </div>
+                            <div class="switch-bullets">
+                                <span class="black"></span>
+                                <span class="biege"></span>
+                                <span class="slategray"></span>
+                                <span class="sandybrown"></span>
+                            </div>
+                            <div class="select-option">
+                                <a href="">select option</a>
+                                <i class="fa-regular fa-heart"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide seven">
+                        <div class="special_box">
+                            <a class="images" href="#">
+                                <span class="sale">sale</span>
+                                <img class="black active" src="../images/home/mop-2-sec-product-2-1.webp" alt="tivi" />
+                                <img class="hover" src="../images/home/mop-2-sec-product-2-2.webp" alt="tivi" />
+                                <img class="biege" src="../images/home/mop-2-sec-product-2-3.webp" alt="tivi" />
+                                <img class="slategray" src="../images/home/mop-2-sec-product-2-4.webp" alt="tivi" />
+                                <img class="sandybrown" src="../images/home/mop-2-sec-product-2-1.webp" alt="tivi" />
+                                <button class="quick-view">
+                                    Quick View
+                                    <i class="fa-solid fa-up-right-from-square"></i>
+                                </button>
+                            </a>
+                            <span class="stars">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-half-stroke"></i>
+                            </span>
+                            <a class="pro_tittle" href="">
+                                Hentum Tosmois de Cras Tele Hamo Dincidunts -
+                                <span class="selescted_color">black</span>
+                            </a>
+                            <div class="price">
+                                <del>$56.00</del>
+                                <span>from</span>
+                                <strong>$49.00</strong>
+                            </div>
+                            <div class="switch-bullets">
+                                <span class="black"></span>
+                                <span class="biege"></span>
+                                <span class="slategray"></span>
+                                <span class="sandybrown"></span>
+                            </div>
+                            <div class="select-option">
+                                <a href="">select option</a>
+                                <i class="fa-regular fa-heart"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+    </section>
+
+    <!--End Top Mo Menu-->
+
+    <section class="banner-custom">
+        <div class="containre">
+            <a href="">
+                <img src="../images/home/banner-custom-middle-2-1_fe4f9f63-224a-4f11-b5fb-20adad0c7e05_1024x1024_crop_center.webp"
+                    alt="" />
+            </a>
+            <a href="">
+                <img src="../images/home/banner-custom-middle-2-2_2be77915-c661-47cc-9ffe-3a0a033e7df9_1024x1024_crop_center.webp"
+                    alt="" />
+            </a>
+        </div>
+    </section>
+
+    <!--Top TV-->
+    <div class="Top-TV">
+        <div class="containre">
+            <header class="headerOfSection">
+                <h2>Top Televisions</h2>
+                <a href="">Shop All</a>
+            </header>
+            <div class="swiper mySwiper" style="height: 550px;">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide one">
+                        <div class="special_box">
+                            <a class="images" href="#">
+                                <span class="sale">sale</span>
+                                <span class="sale new saleNewToo">New</span>
+                                <img draggable="false" class="black active" src="../images/home/product-loa-1.webp"
+                                    alt="laptop" />
+                                <img draggable="false" class="hover" src="../images/home/product-loa-2.webp"
+                                    alt="laptop" />
+                                <img class="biege" src="../images/home/product-loa-3.webp" alt="laptop" />
+                                <img class="slategray" src="../images/home/product-loa-1.webp" alt="laptop" />
+                                <img class="sandybrown" src="../images/home/product-loa-3.webp" alt="laptop" />
+                                <button class="quick-view">
+                                    Quick View
+                                    <i class="fa-solid fa-up-right-from-square"></i>
+                                </button>
+                            </a>
+                            <span class="stars">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star unstar"></i>
+                            </span>
+                            <a class="pro_tittle" href="">
+                                Hentum Tosmois de Laptop Hamo Dincidunts -
+                                <span class="selescted_color">black</span>
+                            </a>
+                            <div class="price">
+                                <del>$99.00</del>
+                                <span>from</span>
+                                <strong>$60.00</strong>
+                            </div>
+                            <div class="switch-bullets">
+                                <span class="black"></span>
+                                <span class="biege"></span>
+                                <span class="slategray"></span>
+                                <span class="sandybrown"></span>
+                            </div>
+                            <div class="select-option">
+                                <a href="">select option</a>
+                                <i class="fa-regular fa-heart"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide two">
+                        <div class="special_box">
+                            <a class="images" href="#">
+                                <span class="sale">sale</span>
+                                <img class="black active"
+                                    src="../images/home/product-tivi-1_ad5097e1-ea23-4ccf-b4a5-dc2c9b4f35f1.webp"
+                                    alt="tivi" draggable="false" />
+                                <img class="hover"
+                                    src="../images/home/product-tivi-4_cf4fe2f6-95de-4eaa-85c3-0d93cd28da07.webp"
+                                    alt="tivi" draggable="false" />
+                                <img class="biege"
+                                    src="../images/home/product-tivi-2_88cda809-75af-49eb-8a94-8fa4e37702fd.webp"
+                                    alt="tivi" draggable="false" />
+                                <img class="slategray"
+                                    src="../images/home/product-tivi-3_059ad191-8644-495d-9766-6edb7ce0e013.webp"
+                                    alt="tivi" draggable="false" />
+                                <img class="sandybrown"
+                                    src="../images/home/product-app-2_50568174-f5b3-4d14-aaf3-d2b6f7ce1964.webp"
+                                    alt="tivi" draggable="false" />
+                                <button class="quick-view">
+                                    Quick View
+                                    <i class="fa-solid fa-up-right-from-square"></i>
+                                </button>
+                            </a>
+                            <span class="stars">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-half-stroke"></i>
+                            </span>
+                            <a class="pro_tittle" href="">
+                                Hentum Tosmois de Cras Tele Hamo Dincidunts -
+                                <span class="selescted_color">black</span>
+                            </a>
+                            <div class="price">
+                                <del>$56.00</del>
+                                <span>from</span>
+                                <strong>$49.00</strong>
+                            </div>
+                            <div class="switch-bullets">
+                                <span class="black"></span>
+                                <span class="biege"></span>
+                                <span class="slategray"></span>
+                                <span class="sandybrown"></span>
+                            </div>
+                            <div class="select-option">
+                                <a href="">select option</a>
+                                <i class="fa-regular fa-heart"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide three">
+                        <div class="special_box">
+                            <a class="images" href="#">
+                                <span class="sale">sale</span>
+                                <span class="sale new saleNewToo">new</span>
+                                <img class="black active"
+                                    src="../images/home/topTV-product-tivi-2_a1d3d597-6e07-4c4b-a731-22236bc65a8d.webp"
+                                    alt="tivi" />
+                                <img class="hover"
+                                    src="../images/home/topTV-product-tivi-1_aa3828bc-9cd2-41a6-b94f-3d81451b0553_360x.webp"
+                                    alt="tivi" />
+                                <img class="biege"
+                                    src="../images/home/topTV-product-tivi-3_fec924ae-eca4-4038-9b4d-5d09bc7ece5c.webp"
+                                    alt="tivi" />
+                                <img class="slategray"
+                                    src="../images/home/topTV-product-tivi-1_aa3828bc-9cd2-41a6-b94f-3d81451b0553_360x.webp"
+                                    alt="tivi" />
+                                <img class="sandybrown"
+                                    src="../images/home/topTV-product-tivi-3_fec924ae-eca4-4038-9b4d-5d09bc7ece5c.webp"
+                                    alt="tivi" />
+                                <button class="quick-view">
+                                    Quick View
+                                    <i class="fa-solid fa-up-right-from-square"></i>
+                                </button>
+                            </a>
+                            <span class="stars">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-half-stroke"></i>
+                            </span>
+                            <a class="pro_tittle" href="">
+                                Hentum Tosmois de Cras Tele Hamo Dincidunts -
+                                <span class="selescted_color">black</span>
+                            </a>
+                            <div class="price">
+                                <del>$56.00</del>
+                                <span>from</span>
+                                <strong>$49.00</strong>
+                            </div>
+                            <div class="switch-bullets">
+                                <span class="black"></span>
+                                <span class="biege"></span>
+                                <span class="slategray"></span>
+                                <span class="sandybrown"></span>
+                            </div>
+                            <div class="select-option">
+                                <a href="">select option</a>
+                                <i class="fa-regular fa-heart"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide four">
+                        <div class="special_box">
+                            <a class="images" href="#">
+                                <span class="sale">sale</span>
+                                <img class="black active"
+                                    src="../images/home/topTV-product-tivi-2-2_ad5097a5-dc2c9b4f35f1 (1).webp"
+                                    alt="phone" />
+                                <img class="hover" src="../images/home/topTV-product-tivi-2_88cda809-75af-d.webp"
+                                    alt="phone" />
+                                <img class="biege"
+                                    src="../images/home/product-tivi-3_059ad191-8644-495d-9766-6edb7ce0e013.webp"
+                                    alt="phone" />
+                                <img class="slategray"
+                                    src="../images/home/topTV-product-tivi-3_fec924ae-eca4-4038-9b4d-5d09bc7ece5c.webp"
+                                    alt="phone" />
+                                <img class="sandybrown"
+                                    src="../images/home/product-tivi-4_cf4fe2f6-95de-4eaa-85c3-0d93cd28da07.webp"
+                                    alt="phone" />
+                                <button class="quick-view">
+                                    Quick View
+                                    <i class="fa-solid fa-up-right-from-square"></i>
+                                </button>
+                            </a>
+                            <span class="stars">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-half-stroke"></i>
+                            </span>
+                            <a class="pro_tittle" href="">
+                                Kill Giother Nodels Coped Permi Unde Ona -
+                                <span class="selescted_color">black</span>
+                            </a>
+                            <div class="price">
+                                <del>$56.00</del>
+                                <span>from</span>
+                                <strong>$49.00</strong>
+                            </div>
+                            <div class="switch-bullets">
+                                <span class="black"></span>
+                                <span class="biege"></span>
+                                <span class="slategray"></span>
+                                <span class="sandybrown"></span>
+                            </div>
+                            <div class="select-option">
+                                <a href="">select option</a>
+                                <i class="fa-regular fa-heart"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide five">
+                        <div class="special_box">
+                            <a class="images" href="#">
+                                <span class="sale">sale</span>
+                                <img class="black active" alt="tivi"
+                                    src="../images/home/product-tivi-4_cf4fe2f6-95de-4eaa-85c3-0d93cd28da07.webp"
+                                    draggable="false" />
+                                <img class="hover"
+                                    src="../images/home/product-tivi-1_ad5097e1-ea23-4ccf-b4a5-dc2c9b4f35f1.webp"
+                                    alt="tivi" draggable="false" />
+                                <img class="biege"
+                                    src="../images/home/product-tivi-2_88cda809-75af-49eb-8a94-8fa4e37702fd.webp"
+                                    alt="tivi" draggable="false" />
+                                <img class="slategray"
+                                    src="../images/home/product-tivi-3_059ad191-8644-495d-9766-6edb7ce0e013.webp"
+                                    alt="tivi" draggable="false" />
+                                <img class="sandybrown"
+                                    src="../images/home/product-app-2_50568174-f5b3-4d14-aaf3-d2b6f7ce1964.webp"
+                                    alt="tivi" draggable="false" />
+                                <button class="quick-view">
+                                    Quick View
+                                    <i class="fa-solid fa-up-right-from-square"></i>
+                                </button>
+                            </a>
+                            <span class="stars">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-half-stroke"></i>
+                            </span>
+                            <a class="pro_tittle" href="">
+                                Hentum Tosmois de Cras Tele Hamo Dincidunts -
+                                <span class="selescted_color">black</span>
+                            </a>
+                            <div class="price">
+                                <del>$349.00</del>
+                                <span>from</span>
+                                <strong>$129.00</strong>
+                            </div>
+                            <div class="switch-bullets">
+                                <span class="black"></span>
+                                <span class="biege"></span>
+                                <span class="slategray"></span>
+                                <span class="sandybrown"></span>
+                            </div>
+                            <div class="select-option">
+                                <a href="">select option</a>
+                                <i class="fa-regular fa-heart"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide six">
+                        <div class="special_box">
+                            <a class="images" href="#">
+                                <span class="sale">sale</span>
+                                <span class="sale new saleNewToo">New</span>
+                                <img draggable="false" class="black active" src="../images/home/product-loa-1.webp"
+                                    alt="laptop" />
+                                <img draggable="false" class="hover" src="../images/home/product-loa-2.webp"
+                                    alt="laptop" />
+                                <img class="biege" src="../images/home/product-loa-3.webp" alt="laptop" />
+                                <img class="slategray" src="../images/home/product-loa-1.webp" alt="laptop" />
+                                <img class="sandybrown" src="../images/home/product-loa-3.webp" alt="laptop" />
+                                <button class="quick-view">
+                                    Quick View
+                                    <i class="fa-solid fa-up-right-from-square"></i>
+                                </button>
+                            </a>
+                            <span class="stars">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star unstar"></i>
+                            </span>
+                            <a class="pro_tittle" href="">
+                                Hentum Tosmois de Laptop Hamo Dincidunts -
+                                <span class="selescted_color">black</span>
+                            </a>
+                            <div class="price">
+                                <del>$99.00</del>
+                                <span>from</span>
+                                <strong>$60.00</strong>
+                            </div>
+                            <div class="switch-bullets">
+                                <span class="black"></span>
+                                <span class="biege"></span>
+                                <span class="slategray"></span>
+                                <span class="sandybrown"></span>
+                            </div>
+                            <div class="select-option">
+                                <a href="">select option</a>
+                                <i class="fa-regular fa-heart"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide seven">
+                        <div class="special_box">
+                            <a class="images" href="#">
+                                <span class="sale">sale</span>
+                                <span class="sale new saleNewToo">New</span>
+                                <img draggable="false" class="black active"
+                                    src="../images/home/topTV-product-tivi-4-1.webp" alt="laptop" />
+                                <img draggable="false" class="hover" src="../images/home/topTV-product-tivi-4-2.webp"
+                                    alt="laptop" />
+                                <img class="biege" src="../images/home/product-loa-3.webp" alt="laptop" />
+                                <img class="slategray" src="../images/home/product-loa-1.webp" alt="laptop" />
+                                <img class="sandybrown" src="../images/home/product-loa-3.webp" alt="laptop" />
+                                <button class="quick-view">
+                                    Quick View
+                                    <i class="fa-solid fa-up-right-from-square"></i>
+                                </button>
+                            </a>
+                            <span class="stars">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star unstar"></i>
+                            </span>
+                            <a class="pro_tittle" href="">
+                                Hentum Tosmois de Laptop Hamo Dincidunts -
+                                <span class="selescted_color">black</span>
+                            </a>
+                            <div class="price">
+                                <del>$99.00</del>
+                                <span>from</span>
+                                <strong>$60.00</strong>
+                            </div>
+                            <div class="switch-bullets">
+                                <span class="black"></span>
+                                <span class="biege"></span>
+                                <span class="slategray"></span>
+                                <span class="sandybrown"></span>
+                            </div>
+                            <div class="select-option">
+                                <a href="">select option</a>
+                                <i class="fa-regular fa-heart"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div><a href="" class="topTV-banner">
+            <img src="./../images/home/topTV--banner-custom-bottom-1_1920x.webp" alt="" />
+        </a>
+    </div>
+    <!--End Top TV-->
+
+    <!--Home App-->
+
+    <div class="topHomeApp">
+        <div class="containre">
+            <header class="headerOfSection">
+                <h2>Top Home Appliances</h2>
+                <a href="">Shop All</a>
+            </header>
+            <div class="swiper mySwiper" style="height: 550px;">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide one">
+                        <div class="special_box">
+                            <a class="images" href="#">
+                                <span class="sale">sale</span>
+                                <img class="black active" src="../images/home/homeApp-product-app-4_235.webp" alt="tivi"
+                                    draggable="false" />
+                                <img class="hover" src="../images/home/homeApp-product-app-3_27590.webp" alt="tivi"
+                                    draggable="false" />
+                                <img class="biege" src="../images/home/homeApp-product-app-1-3_fb22dfcd.webp" alt="tivi"
+                                    draggable="false" />
+                                <img class="slategray" src="../images/home/homeApp-product-app-1-4_50568164 (.webp"
+                                    alt="tivi" draggable="false" />
+                                <img class="sandybrown" src="../images/home/homeApp-product-app-4_235.webp" alt="tivi"
+                                    draggable="false" />
+                                <button class="quick-view">
+                                    Quick View
+                                    <i class="fa-solid fa-up-right-from-square"></i>
+                                </button>
+                            </a>
+                            <span class="stars">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-half-stroke"></i>
+                            </span>
+                            <a class="pro_tittle" href="">
+                                Hentum Tosmois de Cras Tele Hamo Dincidunts -
+                                <span class="selescted_color">black</span>
+                            </a>
+                            <div class="price">
+                                <del>$56.00</del>
+                                <span>from</span>
+                                <strong>$49.00</strong>
+                            </div>
+                            <div class="switch-bullets">
+                                <span class="black"></span>
+                                <span class="biege"></span>
+                                <span class="slategray"></span>
+                                <span class="sandybrown"></span>
+                            </div>
+                            <div class="select-option">
+                                <a href="">select option</a>
+                                <i class="fa-regular fa-heart"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide two">
+                        <div class="special_box">
+                            <a class="images" href="#">
+                                <span class="sale">sale</span>
+                                <img class="black active" alt="tivi"
+                                    src="../images/home/homeApp-product-app-1-3_fb22dfcd.webp" />
+                                <img class="hover" src="../images/home/homeApp-product-app-1-4_50568164 (.webp"
+                                    alt="tivi" draggable="false" />
+                                <img class="biege" src="../images/home/homeApp-product-app-4_235.webp" alt="tivi"
+                                    draggable="false" />
+                                <img src="../images/home/homeApp-product-app-3_27590.webp" class="slategray" alt="tivi"
+                                    draggable="false" />
+                                <img class="sandybrown" src="../images/home/homeApp-product-app-4_235.webp" alt="tivi"
+                                    draggable="false" />
+                                <button class="quick-view">
+                                    Quick View
+                                    <i class="fa-solid fa-up-right-from-square"></i>
+                                </button>
+                            </a>
+                            <span class="stars">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-half-stroke"></i>
+                            </span>
+                            <a class="pro_tittle" href="">
+                                Hentum Tosmois de Cras Tele Hamo Dincidunts -
+                                <span class="selescted_color">black</span>
+                            </a>
+                            <div class="price">
+                                <del>$89.00</del>
+                                <span>from</span>
+                                <strong>$63.00</strong>
+                            </div>
+                            <div class="switch-bullets">
+                                <span class="black"></span>
+                                <span class="biege"></span>
+                                <span class="slategray"></span>
+                                <span class="sandybrown"></span>
+                            </div>
+                            <div class="select-option">
+                                <a href="">select option</a>
+                                <i class="fa-regular fa-heart"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide three">
+                        <div class="special_box">
+                            <a class="images" href="#">
+                                <span class="sale">sale</span>
+                                <span class="sale new saleNewToo">new</span>
+                                <img class="black active"
+                                    src="../images/home/homeApp-product-app-2-1_41bc4cac3a2f9a0.webp" alt="home" />
+                                <img class="hover" src="../images/home/homeApp-product-app-2-2_f38b8b5cfd508.webp"
+                                    alt="tivi" />
+                                <img class="biege" src="../images/home/homeApp-product-app-2-3_1345d6f.webp"
+                                    alt="tivi" />
+                                <img class="slategray" src="../images/home/homeApp-product-app-2-4.webp" alt="tivi" />
+                                <img class="sandybrown" src="../images/home/homeApp-product-app-2-2_f38b8b5cfd508.webp"
+                                    alt="tivi" />
+                                <button class="quick-view">
+                                    Quick View
+                                    <i class="fa-solid fa-up-right-from-square"></i>
+                                </button>
+                            </a>
+                            <span class="stars">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-half-stroke"></i>
+                            </span>
+                            <a class="pro_tittle" href="">
+                                Hentum Tosmois de Cras Tele Hamo Dincidunts -
+                                <span class="selescted_color">black</span>
+                            </a>
+                            <div class="price">
+                                <del>$56.00</del>
+                                <span>from</span>
+                                <strong>$49.00</strong>
+                            </div>
+                            <div class="switch-bullets">
+                                <span class="black"></span>
+                                <span class="biege"></span>
+                                <span class="slategray"></span>
+                                <span class="sandybrown"></span>
+                            </div>
+                            <div class="select-option">
+                                <a href="">select option</a>
+                                <i class="fa-regular fa-heart"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide four">
+                        <div class="special_box">
+                            <a class="images" href="#">
+                                <span class="sale">sale</span>
+                                <img class="black active"
+                                    src="../images/home/topTV-product-tivi-2-2_ad5097a5-dc2c9b4f35f1 (1).webp"
+                                    alt="phone" />
+                                <img class="hover" src="../images/home/topTV-product-tivi-2_88cda809-75af-d.webp"
+                                    alt="phone" />
+                                <img class="biege"
+                                    src="../images/home/product-tivi-3_059ad191-8644-495d-9766-6edb7ce0e013.webp"
+                                    alt="phone" />
+                                <img class="slategray"
+                                    src="../images/home/topTV-product-tivi-3_fec924ae-eca4-4038-9b4d-5d09bc7ece5c.webp"
+                                    alt="phone" />
+                                <img class="sandybrown"
+                                    src="../images/home/product-tivi-4_cf4fe2f6-95de-4eaa-85c3-0d93cd28da07.webp"
+                                    alt="phone" />
+                                <button class="quick-view">
+                                    Quick View
+                                    <i class="fa-solid fa-up-right-from-square"></i>
+                                </button>
+                            </a>
+                            <span class="stars">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-half-stroke"></i>
+                            </span>
+                            <a class="pro_tittle" href="">
+                                Kill Giother Nodels Coped Permi Unde Ona -
+                                <span class="selescted_color">black</span>
+                            </a>
+                            <div class="price">
+                                <del>$56.00</del>
+                                <span>from</span>
+                                <strong>$49.00</strong>
+                            </div>
+                            <div class="switch-bullets">
+                                <span class="black"></span>
+                                <span class="biege"></span>
+                                <span class="slategray"></span>
+                                <span class="sandybrown"></span>
+                            </div>
+                            <div class="select-option">
+                                <a href="">select option</a>
+                                <i class="fa-regular fa-heart"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide five">
+                        <div class="special_box">
+                            <a class="images" href="#">
+                                <span class="sale">sale</span>
+                                <img class="black active" alt="tivi"
+                                    src="../images/home/homeproduct-app-3-1_1fcd9056e1.webp" draggable="false" />
+                                <img class="hover" src="../images/home/homeproduct-app-2-3_6f77d.webp" alt="tivi"
+                                    draggable="false" />
+                                <img class="biege" src="../images/home/homeApp-product-app-4_235.webp" alt="tivi"
+                                    draggable="false" />
+                                <img class="slategray"
+                                    src="../images/home/product-tivi-3_059ad191-8644-495d-9766-6edb7ce0e013.webp"
+                                    alt="tivi" draggable="false" />
+                                <img class="sandybrown"
+                                    src="../images/home/product-app-2_50568174-f5b3-4d14-aaf3-d2b6f7ce1964.webp"
+                                    alt="tivi" draggable="false" />
+                                <button class="quick-view">
+                                    Quick View
+                                    <i class="fa-solid fa-up-right-from-square"></i>
+                                </button>
+                            </a>
+                            <span class="stars">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-half-stroke"></i>
+                            </span>
+                            <a class="pro_tittle" href="">
+                                Hentum Tosmois de Cras Tele Hamo Dincidunts -
+                                <span class="selescted_color">black</span>
+                            </a>
+                            <div class="price">
+                                <del>$349.00</del>
+                                <span>from</span>
+                                <strong>$129.00</strong>
+                            </div>
+                            <div class="switch-bullets">
+                                <span class="black"></span>
+                                <span class="biege"></span>
+                                <span class="slategray"></span>
+                                <span class="sandybrown"></span>
+                            </div>
+                            <div class="select-option">
+                                <a href="">select option</a>
+                                <i class="fa-regular fa-heart"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+    </div>
+
+    <!--End Home App-->
+
+    <!--feature products-->
+
+    <section class="feature-products">
+        <div class="containre">
+            <header class="headerOfSection">
+                <h2>Featured Products</h2>
+                <a href="">Shop All</a>
+            </header>
+            <div class="swiper mySwiper" style="height: 550px;">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide one">
+                        <div class="special_box">
+                            <a class="images" href="#">
+                                <img class="black active" src="../images/home/product-laptop-1.webp" alt="laptop"
+                                    draggable="false" />
+                                <img class="hover" src="../images/home/product-laptop-2.webp" alt="laptop"
+                                    draggable="false" />
+                                <img class="biege"
+                                    src="../images/home/product-laptop-5_5499560d-5bc4-449a-a30a-3fcd93a0e9ea.webp"
+                                    alt="laptop" draggable="false" />
+                                <img class="slategray" src="../images/home/product-laptop-3.webp" alt="laptop"
+                                    draggable="false" />
+                                <img class="sandybrown" src="../images/home/product-laptop-4_cf75.webp" alt="laptop"
+                                    draggable="false" />
+                                <button class="quick-view">
+                                    Quick View
+                                    <i class="fa-solid fa-up-right-from-square"></i>
+                                </button>
+                            </a>
+                            <span class="stars">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+
+                                <i class="fa-solid fa-star-half-stroke"></i>
+                            </span>
+                            <a class="pro_tittle" href="">
+                                Hentum Tosmois de Laptop Hamo Dincidunts -
+                                <span class="selescted_color">black</span>
+                            </a>
+                            <div class="price">
+                                <del>$56.00</del>
+                                <span>from</span>
+                                <strong>$49.00</strong>
+                            </div>
+                            <div class="switch-bullets">
+                                <span class="black"></span>
+                                <span class="biege"></span>
+                                <span class="slategray"></span>
+                                <span class="sandybrown"></span>
+                            </div>
+                            <div class="select-option">
+                                <a href="">select option</a>
+                                <i class="fa-regular fa-heart"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide two">
+                        <div class="special_box">
+                            <a class="images" href="#">
+                                <span class="sale">sale</span>
+                                <span class="sale new saleNewToo">new</span>
+                                <img class="black active"
+                                    src="../images/home/topTV-product-tivi-2_a1d3d597-6e07-4c4b-a731-22236bc65a8d.webp"
+                                    alt="tivi" />
+                                <img class="hover"
+                                    src="../images/home/topTV-product-tivi-1_aa3828bc-9cd2-41a6-b94f-3d81451b0553_360x.webp"
+                                    alt="tivi" />
+                                <img class="biege"
+                                    src="../images/home/topTV-product-tivi-3_fec924ae-eca4-4038-9b4d-5d09bc7ece5c.webp"
+                                    alt="tivi" />
+                                <img class="slategray"
+                                    src="../images/home/topTV-product-tivi-1_aa3828bc-9cd2-41a6-b94f-3d81451b0553_360x.webp"
+                                    alt="tivi" />
+                                <img class="sandybrown"
+                                    src="../images/home/topTV-product-tivi-3_fec924ae-eca4-4038-9b4d-5d09bc7ece5c.webp"
+                                    alt="tivi" />
+                                <button class="quick-view">
+                                    Quick View
+                                    <i class="fa-solid fa-up-right-from-square"></i>
+                                </button>
+                            </a>
+                            <span class="stars">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-half-stroke"></i>
+                            </span>
+                            <a class="pro_tittle" href="">
+                                Hentum Tosmois de Cras Tele Hamo Dincidunts -
+                                <span class="selescted_color">black</span>
+                            </a>
+                            <div class="price">
+                                <del>$56.00</del>
+                                <span>from</span>
+                                <strong>$49.00</strong>
+                            </div>
+                            <div class="switch-bullets">
+                                <span class="black"></span>
+                                <span class="biege"></span>
+                                <span class="slategray"></span>
+                                <span class="sandybrown"></span>
+                            </div>
+                            <div class="select-option">
+                                <a href="">select option</a>
+                                <i class="fa-regular fa-heart"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide three">
+                        <div class="special_box">
+                            <a class="images" href="#">
+                                <span class="sale">sale</span>
+                                <img class="black active" src="../images/home/product-black-airPods-1.webp"
+                                    alt="airPods" draggable="false" />
+                                <img class="hover" src="../images/home/product-hover-airPods-2.webp" alt="airPods"
+                                    draggable="false" />
+                                <img class="biege" src="../images/home/product-airPods-3.webp" alt="airPods"
+                                    draggable="false" />
+                                <img class="slategray" src="../images/home/product-airPods-4.webp" alt="airPods"
+                                    draggable="false" />
+                                <img class="sandybrown" src="../images/home/product-black-airPods-1.webp" alt="airPods"
+                                    draggable="false" />
+                                <button class="quick-view">
+                                    Quick View
+                                    <i class="fa-solid fa-up-right-from-square"></i>
+                                </button>
+                            </a>
+                            <span class="stars">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </span>
+                            <a class="pro_tittle" href="">
+                                Permi Unde Ona pharetras praneu homuir -
+                                <span class="selescted_color">black</span>
+                            </a>
+                            <div class="price">
+                                <del>$56.00</del>
+                                <span>from</span>
+                                <strong>$49.00</strong>
+                            </div>
+                            <div class="switch-bullets">
+                                <span class="black"></span>
+                                <span class="biege"></span>
+                                <span class="slategray"></span>
+                                <span class="sandybrown"></span>
+                            </div>
+                            <div class="select-option">
+                                <a href="">select option</a>
+                                <i class="fa-regular fa-heart"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide four">
+                        <div class="special_box">
+                            <a class="images" href="#">
+                                <span class="sale">sale</span>
+                                <img class="black active"
+                                    src="../images/home/topTV-product-tivi-2-2_ad5097a5-dc2c9b4f35f1 (1).webp"
+                                    alt="phone" />
+                                <img class="hover" src="../images/home/topTV-product-tivi-2_88cda809-75af-d.webp"
+                                    alt="phone" />
+                                <img class="biege"
+                                    src="../images/home/product-tivi-3_059ad191-8644-495d-9766-6edb7ce0e013.webp"
+                                    alt="phone" />
+                                <img class="slategray"
+                                    src="../images/home/topTV-product-tivi-3_fec924ae-eca4-4038-9b4d-5d09bc7ece5c.webp"
+                                    alt="phone" />
+                                <img class="sandybrown"
+                                    src="../images/home/product-tivi-4_cf4fe2f6-95de-4eaa-85c3-0d93cd28da07.webp"
+                                    alt="phone" />
+                                <button class="quick-view">
+                                    Quick View
+                                    <i class="fa-solid fa-up-right-from-square"></i>
+                                </button>
+                            </a>
+                            <span class="stars">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-half-stroke"></i>
+                            </span>
+                            <a class="pro_tittle" href="">
+                                Kill Giother Nodels Coped Permi Unde Ona -
+                                <span class="selescted_color">black</span>
+                            </a>
+                            <div class="price">
+                                <del>$56.00</del>
+                                <span>from</span>
+                                <strong>$49.00</strong>
+                            </div>
+                            <div class="switch-bullets">
+                                <span class="black"></span>
+                                <span class="biege"></span>
+                                <span class="slategray"></span>
+                                <span class="sandybrown"></span>
+                            </div>
+                            <div class="select-option">
+                                <a href="">select option</a>
+                                <i class="fa-regular fa-heart"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide five">
+                        <div class="special_box">
+                            <a class="images" href="#">
+                                <span class="sale">sale</span>
+                                <span class="sale new saleNewToo">new</span>
+                                <img class="black active"
+                                    src="../images/home/homeApp-product-app-2-1_41bc4cac3a2f9a0.webp" alt="home"
+                                    draggable="false" />
+                                <img class="hover" src="../images/home/homeApp-product-app-2-2_f38b8b5cfd508.webp"
+                                    alt="tivi" draggable="false" />
+                                <img class="biege" src="../images/home/homeApp-product-app-2-3_1345d6f.webp" alt="tivi"
+                                    draggable="false" />
+                                <img class="slategray" src="../images/home/homeApp-product-app-2-4.webp" alt="tivi"
+                                    draggable="false" />
+                                <img class="sandybrown" src="../images/home/homeApp-product-app-2-2_f38b8b5cfd508.webp"
+                                    alt="tivi" draggable="false" />
+                                <button class="quick-view">
+                                    Quick View
+                                    <i class="fa-solid fa-up-right-from-square"></i>
+                                </button>
+                            </a>
+                            <span class="stars">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-half-stroke"></i>
+                            </span>
+                            <a class="pro_tittle" href="">
+                                Hentum Tosmois de Cras Tele Hamo Dincidunts -
+                                <span class="selescted_color">black</span>
+                            </a>
+                            <div class="price">
+                                <del>$56.00</del>
+                                <span>from</span>
+                                <strong>$49.00</strong>
+                            </div>
+                            <div class="switch-bullets">
+                                <span class="black"></span>
+                                <span class="biege"></span>
+                                <span class="slategray"></span>
+                                <span class="sandybrown"></span>
+                            </div>
+                            <div class="select-option">
+                                <a href="">select option</a>
+                                <i class="fa-regular fa-heart"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide six">
+                        <div class="special_box">
+                            <a class="images" href="#">
+                                <span class="sale">sale</span>
+                                <img class="black active" src="../images/home/mop-2-sec-product-2-1.webp" alt="tivi"
+                                    draggable="false" />
+                                <img class="hover" src="../images/home/mop-2-sec-product-2-2.webp" alt="tivi"
+                                    draggable="false" />
+                                <img class="biege" src="../images/home/mop-2-sec-product-2-3.webp" alt="tivi"
+                                    draggable="false" />
+                                <img class="slategray" src="../images/home/mop-2-sec-product-2-4.webp" alt="tivi"
+                                    draggable="false" />
+                                <img class="sandybrown" src="../images/home/mop-2-sec-product-2-1.webp" alt="tivi"
+                                    draggable="false" />
+                                <button class="quick-view">
+                                    Quick View
+                                    <i class="fa-solid fa-up-right-from-square"></i>
+                                </button>
+                            </a>
+                            <span class="stars">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-half-stroke"></i>
+                            </span>
+                            <a class="pro_tittle" href="">
+                                Hentum Tosmois de Cras Tele Hamo Dincidunts -
+                                <span class="selescted_color">black</span>
+                            </a>
+                            <div class="price">
+                                <del>$56.00</del>
+                                <span>from</span>
+                                <strong>$49.00</strong>
+                            </div>
+                            <div class="switch-bullets">
+                                <span class="black"></span>
+                                <span class="biege"></span>
+                                <span class="slategray"></span>
+                                <span class="sandybrown"></span>
+                            </div>
+                            <div class="select-option">
+                                <a href="">select option</a>
+                                <i class="fa-regular fa-heart"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide seven">
+                        <div class="special_box">
+                            <a class="images" href="#">
+                                <span class="sale">sale</span>
+                                <img class="black active" src="../images/home/mopsec-product-4-1.webp" alt="product-app"
+                                    draggable="false" />
+                                <img class="hover" src="../images/home/mopsec-product-4-3.webp" alt="product-app"
+                                    draggable="false" />
+                                <img class="biege" src="../images/home/mopsec-product-4-4.webp" alt="product-app"
+                                    draggable="false" />
+                                <img class="slategray" src="../images/home/mopsec-product-4-5.webp" alt="product-app"
+                                    draggable="false" />
+                                <img class="sandybrown" src="../images/home/mopsec-product-4-1.webp" alt="product-app"
+                                    draggable="false" />
+                                <button class="quick-view">
+                                    Quick View
+                                    <i class="fa-solid fa-up-right-from-square"></i>
+                                </button>
+                            </a>
+                            <span class="stars">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </span>
+                            <a class="pro_tittle" href="">
+                                Home Tosmois de Cras Hamo Dincidunts -
+                                <span class="selescted_color">black</span>
+                            </a>
+                            <div class="price">
+                                <del>$320.00</del>
+                                <span>from</span>
+                                <strong>$160.00</strong>
+                            </div>
+                            <div class="switch-bullets">
+                                <span class="black"></span>
+                                <span class="biege"></span>
+                                <span class="slategray"></span>
+                                <span class="sandybrown"></span>
+                            </div>
+                            <div class="select-option">
+                                <a href="">select option</a>
+                                <i class="fa-regular fa-heart"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+    </section>
+
+    <!--End feature products-->
+
+
+    <!--feature brands-->
+
+    <div class="feature-brands">
+        <div class="containre">
+            <header>
+                <h2>Featured Brands</h2>
+                <a href="">shop now</a>
+            </header>
+            <div class="swiper mySwiperr" style="height: 230px;margin-top: 50px!important;">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide one">
+                        <a href=""><img src="../images/home/brand-1_250x.webp" alt="" /></a>
+                    </div>
+                    <div class="swiper-slide two">
+                        <a href=""><img src="../images/home/brand-2_250x.webp" alt="" /></a>
+                    </div>
+                    <div class="swiper-slide three">
+                        <a href=""><img src="../images/home/brand-3_250x.webp" alt="" /></a>
+                    </div>
+                    <div class="swiper-slide four">
+                        <a href=""><img src="../images/home/brand-4_250x.webp" alt="" /></a>
+                    </div>
+                    <div class="swiper-slide five">
+                        <a href=""><img src="../images/home/brand-1_250x.webp" alt="" /></a>
+                    </div>
+                    <div class="swiper-slide six">
+                        <a href=""><img src="../images/home/brand-2_250x.webp" alt="" /></a>
+                    </div>
+                    <div class="swiper-slide seven">
+                        <a href=""><img src="../images/home/brand-3_250x.webp" alt="" /></a>
+                    </div>
+                    <div class="swiper-slide eight">
+                        <a href=""><img src="../images/home/brand-4_250x.webp" alt="" /></a>
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+    </div>
+
+    <!--ENd feature-brands-->
+
+    <section class="shop-with-us">
+        <div class="containre">
+            <h1><strong>Why shop</strong> with us?</h1>
+            <div class="content">
+                <div class="box">
+                    <img src="../images/home/icon-us-1_200x.webp" alt="icon" />
+                    <h2>Free Shipping On First Order</h2>
+                    <p>Praesent suscipit mattis facilisis.</p>
+                    <a href="">Learn more</a>
+                </div>
+                <div class="box">
+                    <img src="../images/home/icon-us-2_200x.png" alt="icon" />
+                    <h2>Weekly Flash Sale</h2>
+                    <p>Praesent suscipit mattis facilisis.</p>
+                    <a href="">Learn more</a>
+                </div>
+                <div class="box">
+                    <img src="../images/home/icon-us-3_200x.webp" alt="icon" />
+                    <h2>Anual Payment Discount</h2>
+                    <p>Praesent suscipit mattis facilisis.</p>
+                    <a href="">Learn more</a>
+                </div>
+                <div class="box">
+                    <img src="../images/home/icon-us-4_200x.webp" alt="icon" />
+                    <h2>Cashback Reward Program</h2>
+                    <p>Praesent suscipit mattis facilisis.</p>
+                    <a href="">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--End Mahmoud-->
+
+
+
+
+    <!--Test-->
+    <div class="popupBody">
+        <div class="parent-cont">
+            <span id="exit"><i class="fa-solid fa-xmark"></i></span>
+            <div class="popup-containre">
+                <div class="view">
+                    <div class="imageToShow">
+                        <img src="./images/home/homeApp-product-app-2-3_1345d6f.webp" alt="product image" />
+                    </div>
+                    <div class="slide-show">
+                        <div class="image-slide">
+                            <img class="img-one" src="../images/home/homeApp-product-app-1-3_fb22dfcd.webp" alt="">
+                            <img class="img-two" src="../images/home/homeApp-product-app-1-3_fb22dfcd.webp" alt="">
+                            <img class="img-three" src="../images/home/homeApp-product-app-1-3_fb22dfcd.webp" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="product-data">
+                    <h1 id="proName">Giother Laptop Nodels Coped Permi Unde Ona</h1>
+                    <div class="pro-target">
+                        <div class="stars-cont">
+                            <div class="stars">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                            <span>
+                                <span class="viewNumber">2</span>
+                                reviews
+                            </span>
+                        </div>
+                        <div class="soldNumber">
+                            <i class="fa-solid fa-fire"></i>
+                            sold <span>3</span> times in last <span>10</span> hours
+                        </div>
+                    </div>
+                    <ul class="pro-deatails">
+                        <li>Brand: <strong class="brand">Ella - Halothemes</strong></li>
+                        <li>Product Code: <strong class="code">KJSU-58836</strong></li>
+                        <li>
+                            Availability: <strong class="availability">10</strong>
+                            <strong>In stock</strong>
+                        </li>
+
+                        <li><strong class="price">100$</strong></li>
+                        <li>
+                            <strong class="description">At vero eos et accusamus et iusto odio dignissimos ducimus
+                                qui blanditiis praesentium voluptatum delen</strong>
+                        </li>
+                    </ul>
+                    <div class="pro-size">
+                        <header>
+                            <span>size: <strong id="size">XL</strong></span>
+                            <div class="size-guide">
+                                <i class="fa-solid fa-ruler"></i>
+                                size guide
+                            </div>
+                        </header>
+                        <ul class="sizeOption">
+                            <li>xs</li>
+                            <li>s</li>
+                            <li>m</li>
+                            <li>l</li>
+                            <li>xl</li>
+                        </ul>
+                    </div>
+                    <div class="pro-color">
+                        <span>color: <strong class="color">black</strong></span>
+                        <div class="switch-bullets">
+                            <span class="black"></span>
+                            <span class="biege"></span>
+                            <span class="slategray"></span>
+                            <span class="sandybrown"></span>
+                        </div>
+                    </div>
+                    <div class="quantity">
+                        <h4>quantity</h4>
+                        <div class="quantity-box">
+                            <div class="minuse">-</div>
+                            <div class="number">1</div>
+                            <div class="pluse">+</div>
+                        </div>
+                    </div>
+                    <div class="shopingIt">
+                        <button>add to cart</button>
+                        <i class="fa-regular fa-heart"></i>
+                        <div class="share"><i class="fa-solid fa-share-nodes"></i></div>
+                    </div>
+                    <div class="randomView">
+                        <i class="fa-solid fa-eye"></i>
+                        <strong id="randomView">193</strong> customers are viewing this
+                        product
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!--End Test-->
+
+
+
+    <!--Footer-->
+    <div class="footer">
+        <div class="container-fluid p-5">
+            <div class="subscribe text-center">
+                <div class="heading">
+                    <h3>SUBSCRIBE TO OUR NEWSLETTER</h3>
+                    <p>Get the latest updates on new products and upcoming sales</p>
+                </div>
+                <div class="inp">
+                    <input type="text" placeholder="Entr your email address">
+                    <button>Subscribe</button>
+                </div>
+            </div>
+            <div class="row pt-5 px-4">
+                <div class="col-sm-6 pb-sm-4 col-md-4 col-lg-3">
+                    <h2 class="head">CATEGOIES</h2>
+                    <p>Appliances</p>
+                    <p>Computers & Laptops</p>
+                    <p>Cameras</p>
+                    <p>Mobile Phones & Tablets</p>
+                    <p>Televisions</p>
+                    <p>Video Games & Systems</p>
+                    <p>Weekly Deals</p>
+                </div>
+                <hr>
+                <div class="col-sm-6 pb-sm-4 col-md-4 col-lg-3">
+                    <h2 class="head">FURTHER INFO.</h2>
+                    <p>About us</p>
+                    <p>Gift Certificates</p>
+                    <p>Theme Styles</p>
+                    <p>Contact us</p>
+                    <p>Blog</p>
+                    <p>Brands</p>
+                    <p>Sitemap</p>
+                </div>
+                <hr>
+                <div class="col-sm-6 pb-sm-4 col-md-4 col-lg-3">
+                    <h2 class="head">CUSTOMER SERVICE</h2>
+                    <p>Help & FAQs</p>
+                    <p>Terms of Conditions</p>
+                    <p>Privacy Policy</p>
+                    <p>Online Returns Policy</p>
+                    <p>Rewards Program</p>
+                    <p>Rebate Center</p>
+                    <p>Partners</p>
+                </div>
+                <hr>
+                <div class="col-sm-6 pb-sm-4 col-md-4 col-lg-3 contact">
+                    <div class="logo">
+                        <img src="https://cdn.shopify.com/s/files/1/0064/4435/1539/files/logo-footer.png?v=1615513680"
+                            alt="">
+                    </div>
+                    <div class="address d-flex">
+                        <i class="fa fa-location-dot mr-4"></i>
+                        <p>685 Market Street San Francisco, CA <br> 94105, US</p>
+                    </div>
+                    <div class="call d-flex">
+                        <i class="fa fa-phone mr-4"></i>
+                        <p>Call us at (415) 555-5555</p>
+                    </div>
+                    <div class="email d-flex">
+                        <i class="fa fa-envelope mr-4"></i>
+                        <p>Email: example@domain.com</p>
+                    </div>
+                    <hr>
+                    <div class="social d-flex mt-3">
+                        <i class="fab fa-facebook"></i>
+                        <i class="fab fa-twitter"></i>
+                        <i class="fab fa-instagram"></i>
+                        <i class="fab fa-youtube"></i>
+                        <i class="fab fa-tiktok"></i>
+                        <i class="fab fa-pinterest"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+        <script src="../script/home-script.js"></script>
+</body>
+
+</html>
